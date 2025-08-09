@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sales Invoice - ABC Company</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #fafafa; padding: 40px; }
+    h1 { color: #2C3E50; }
+    .invoice-table {
+      width: 500px;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    .invoice-table th, .invoice-table td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+    .invoice-table th {
+      background: #eee;
+    }
+    .invoice-table tr:last-child td {
+      background: #f7f7f7;
+    }
+    .table-title {
+      font-size: 1.1em;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .small-desc {
+      font-size: 0.97em;
+      color: #333;
+      margin-bottom: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>ABC Company</h1>
+  <div class="table-title">Sales Invoice</div>
+  <div class="small-desc">
+    Below is a detailed invoice for your recent purchase from ABC Company. If you have any questions regarding this invoice, feel free to contact our support team.
+  </div>
+
+  <table class="invoice-table">
+    <tr>
+      <td colspan="2">Invoice #: 54434</td>
+      <td colspan="2" style="text-align:right;">May 2025</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <strong>Pay To :</strong><br>
+        ABC Company<br>
+        Delhi
+      </td>
+      <td colspan="2">
+        <strong>Customer :</strong><br>
+        Ajay Kumar<br>
+        Chennai
+      </td>
+    </tr>
+    <tr>
+      <th>Name/Desc</th>
+      <th>Quantity</th>
+      <th>Per Price</th>
+      <th>Cost</th>
+    </tr>
+    <tr>
+      <td>Pen</td>
+      <td>20</td>
+      <td>25</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <td>Pencil</td>
+      <td>10</td>
+      <td>15</td>
+      <td>150</td>
+    </tr>
+    <tr>
+      <td colspan="3" style="text-align:right;"><strong>Sub Total</strong></td>
+      <td>650</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align:right;">Tax</td>
+      <td>10%</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <td colspan="3" style="text-align:right;"><strong>Grand Total</strong></td>
+      <td><strong>Rs. 715/-</strong></td>
+    </tr>
+  </table>
+
+</body>
+</html>
