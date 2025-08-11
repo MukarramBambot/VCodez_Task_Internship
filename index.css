@@ -1,47 +1,79 @@
-/* Universal selector for everything */
+/* Universal selector */
 * {
   box-sizing: border-box;
 }
 
-/* Element selector */
-table {
-  margin-bottom: 24px;
-}
-
-/* Class selector */
+/* Table styling */
 .invoice-table {
   width: 500px;
   border-collapse: collapse;
-  margin-top: 20px;
-  background: #f9f9f9; /* general background */
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  background: #fff;
 }
 
-/* ID selector */
-#customer-block {
-  border-left: 4px solid #ffdab9;
+/* Table cells and headers border */
+.invoice-table th,
+.invoice-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
 }
 
-/* Grouped selector */
-th, .table-title {
-  background: #e1eaff;
-  color: #4682B4;
-}
-
-/* Additional styling for first column */
-td:first-child {
-  font-weight: 500;
-  font-family: "Segoe UI", Arial, sans-serif;
-}
-
-/* Selected row highlighting */
-tr.highlighted {
-  background-color: #fffacd; /* pale yellow */
-  color: #444;
-}
-
-/* .total cell for grand total */
-td.total {
-  background-color: #d7ffdf;
-  color: #b10000;
+/* Header row: blue text, yellow background */
+.invoice-table th {
+  background: #ffe600;   /* yellow */
+  color: #0066cc;        /* blue */
   font-weight: bold;
+}
+
+/* Top rows: gray text, white background */
+.invoice-table tr:first-child td {
+  background: #fff;
+  color: #808080;         /* gray */
+}
+
+/* Party/Customer rows: brown text, white background */
+.invoice-table tr:nth-child(2) td {
+  background: #fff;
+  color: #8B4513;         /* brown */
+}
+
+/* Item rows: black text, white background */
+.invoice-table tr:nth-child(4) td,
+.invoice-table tr:nth-child(5) td {
+  background: #fff;
+  color: #222;
+}
+
+/* Subtotal: brown text, white background, aligns right */
+.invoice-table tr:nth-child(6) td {
+  background: #fff;
+}
+.invoice-table tr:nth-child(6) td[colspan="3"] {
+  color: #8B4513;         /* brown */
+  text-align: right;
+}
+
+/* Tax row: blue text, yellow background */
+.invoice-table tr:nth-child(7) td {
+  background: #ffe600;    /* yellow */
+  color: #0066cc;         /* blue */
+}
+
+.invoice-table tr:nth-child(7) td:last-child {
+  color: #222;            /* black for Total Price in Tax row */
+}
+
+/* Grand Total row: red bold text, lightgreen background, aligns right */
+.invoice-table tr:last-child td {
+  background: #b6fcb6;    /* lightgreen */
+}
+.invoice-table tr:last-child td[colspan="3"] strong,
+.invoice-table tr:last-child td strong {
+  color: #d80000;         /* red */
+  font-weight: bold;
+}
+.invoice-table tr:last-child td[colspan="3"] {
+  text-align: right;
 }
