@@ -1,59 +1,47 @@
-body {
-  font-family: Arial, sans-serif;
-  background: #fafafa;
-  padding: 40px;
+/* Universal selector for everything */
+* {
+  box-sizing: border-box;
 }
 
-/* Header & Titles */
-h1 {
-  color: #2C3E50;
+/* Element selector */
+table {
+  margin-bottom: 24px;
 }
 
-/* Invoice Table Base Styles */
+/* Class selector */
 .invoice-table {
   width: 500px;
   border-collapse: collapse;
   margin-top: 20px;
-}
-.invoice-table th, .invoice-table td {
-  border: 1px solid #ccc;
-  padding: 8px;
-  text-align: left;
+  background: #f9f9f9; /* general background */
 }
 
-/* Color Classes */
-/* Text Colors */
-.t-red { color: #e74c3c; }
-.t-green { color: #27ae60; }
-.t-blue { color: #2980b9; }
-.t-black { color: #000; }
-.t-brown { color: #a0522d; }
-.t-white { color: #fff; }
-.t-gray { color: #555; }
-.t-lightgreen { color: #32CD32; }
-.t-bold { font-weight: bold; }
-
-/* Background Colors */
-.b-yellow { background: #fff7a3; }
-.b-lightgreen { background: #e0ffe0; }
-.b-white { background: #fff; }
-.b-gray { background: #ececec; }
-.b-blue { background: #d0e9ff; }
-.b-brown { background: #f4e3d1; }
-.b-black { background: #2c3e50; }
-.b-bold { font-weight: bold; }
-
-/* Special Cells Based on Invoice Image */
-.invoice-table th {
-  background: #eee; /* Default header background */
-}
-.invoice-table tr:last-child td {
-  background: #f7f7f7; /* Grand total row */
+/* ID selector */
+#customer-block {
+  border-left: 4px solid #ffdab9;
 }
 
-/* Example: Grand Total cell bold red on light green background */
-.grand-total {
-  color: #e74c3c;
-  background: #e0ffe0;
+/* Grouped selector */
+th, .table-title {
+  background: #e1eaff;
+  color: #4682B4;
+}
+
+/* Additional styling for first column */
+td:first-child {
+  font-weight: 500;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Selected row highlighting */
+tr.highlighted {
+  background-color: #fffacd; /* pale yellow */
+  color: #444;
+}
+
+/* .total cell for grand total */
+td.total {
+  background-color: #d7ffdf;
+  color: #b10000;
   font-weight: bold;
 }

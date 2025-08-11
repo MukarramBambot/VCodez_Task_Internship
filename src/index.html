@@ -3,57 +3,72 @@
 <head>
   <meta charset="UTF-8">
   <title>Sales Invoice - ABC Company</title>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="index.css">
+
   <style>
-    body { font-family: Arial, sans-serif; background: #fafafa; padding: 40px; }
-    h1 { color: #2C3E50; }
-    .invoice-table {
-      width: 500px;
-      border-collapse: collapse;
-      margin-top: 20px;
+    /* Internal CSS: use class, id, element, grouped, universal selectors */
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      padding: 40px;
     }
-    .invoice-table th, .invoice-table td {
-      border: 1px solid #ccc;
-      padding: 8px;
-      text-align: left;
+
+    .table-title, #header {
+      color: brown; /* grouped selector */
     }
+
     .invoice-table th {
       background: #eee;
+      color: blue;
     }
-    .invoice-table tr:last-child td {
-      background: #f7f7f7;
+    
+    .highlighted {
+      background-color: yellow;
+      color: black;
     }
-    .table-title {
-      font-size: 1.1em;
+
+    td.total {
+      background: lightgreen;
+      color: red;
       font-weight: bold;
-      margin-bottom: 5px;
     }
-    .small-desc {
-      font-size: 0.97em;
+    
+    #customer-block {
+      background: #fffbe7;
       color: #333;
-      margin-bottom: 18px;
+    }
+
+    .sub-label {
+      color: green;
+    }
+    
+    * {
+      box-sizing: border-box;
     }
   </style>
 </head>
 <body>
 
-  <h1>ABC Company</h1>
+  <h1 id="header">ABC Company</h1>
   <div class="table-title">Sales Invoice</div>
   <div class="small-desc">
-    Below is a detailed invoice for your recent purchase from ABC Company. If you have any questions regarding this invoice, feel free to contact our support team.
+    <span class="sub-label">Below is a detailed invoice for your recent purchase from ABC Company.</span> If you have any questions regarding this invoice, feel free to contact our support team.
   </div>
 
   <table class="invoice-table">
     <tr>
-      <td colspan="2">Invoice #: 54434</td>
-      <td colspan="2" style="text-align:right;">May 2025</td>
+      <td colspan="2" style="background-color: lightgray; color: white;">Invoice #: 54434</td>
+      <td colspan="2" style="text-align:right; background-color: lightgray; color: white;">May 2025</td>
     </tr>
     <tr>
-      <td colspan="2">
+      <td colspan="2" id="payto-block" style="background: #f3eee1;">
         <strong>Pay To :</strong><br>
         ABC Company<br>
         Delhi
       </td>
-      <td colspan="2">
+      <td colspan="2" id="customer-block">
         <strong>Customer :</strong><br>
         Ajay Kumar<br>
         Chennai
@@ -65,30 +80,30 @@
       <th>Per Price</th>
       <th>Cost</th>
     </tr>
-    <tr>
+    <tr class="highlighted">
       <td>Pen</td>
       <td>20</td>
       <td>25</td>
       <td>500</td>
     </tr>
     <tr>
-      <td>Pencil</td>
-      <td>10</td>
-      <td>15</td>
-      <td>150</td>
+      <td style="color:brown;">Pencil</td>
+      <td style="background-color:yellow;">10</td>
+      <td style="color:blue;">15</td>
+      <td style="background-color:lightgray;">150</td>
     </tr>
     <tr>
-      <td colspan="3" style="text-align:right;"><strong>Sub Total</strong></td>
+      <td colspan="3" style="text-align:right; color: brown;"><strong>Sub Total</strong></td>
       <td>650</td>
     </tr>
     <tr>
-      <td colspan="2" style="text-align:right;">Tax</td>
-      <td>10%</td>
+      <td colspan="2" style="text-align:right; background-color:#e3eaff; color: blue;">Tax</td>
+      <td style="color: green;">10%</td>
       <td>65</td>
     </tr>
     <tr>
       <td colspan="3" style="text-align:right;"><strong>Grand Total</strong></td>
-      <td><strong>Rs. 715/-</strong></td>
+      <td class="total"><strong>Rs. 715/-</strong></td>
     </tr>
   </table>
 
