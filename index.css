@@ -24,8 +24,8 @@
 
 /* Pay To / Customer row (brown text, white background) */
 .company-info,{
-  background: white;
-  color: brown;
+  background: yellow;
+  color: red;
 }
 .customer-info {
   background: yellow;
