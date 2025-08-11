@@ -34,21 +34,21 @@
 
 /* Header row: blue text, yellow background */
 .header-cell {
-  background: yellow;
-  color: blue;
+  background: lightgreen;
+  color: green;
   font-weight: bold;
 }
 
 /* Item rows: black text, white background */
 .item-cell {
   background: white;
-  color: black;
+  color: brown;
 }
 
 /* Subtotal row: brown text, white background for label; black text for value */
 .sub-label {
-  background: white;
-  color: brown;
+  background: yellow;
+  color: black;
   text-align: right;
 }
 .sub-total {
@@ -68,10 +68,8 @@
 
 /* Grand Total row: red bold text, lightgreen background, right-aligned */
 .grand-label, .grand-total {
+  color: red;
   background: lightgreen;
   text-align: right;
-}
-.grand-label strong, .grand-total strong {
-  color: red;
   font-weight: bold;
 }
