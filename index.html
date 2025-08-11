@@ -3,55 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <title>Sales Invoice - ABC Company</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <table class="invoice-table" style="width:500px; border-collapse:collapse;">
+  <table class="invoice-table">
     <tr>
-      <td colspan="2" style="background:white; color:gray;">Invoice No: #54578953</td>
-      <td colspan="2" style="background:white; color:gray; text-align:right;">21 May 2024</td>
+      <td colspan="2" class="top-row">Invoice No: #54578953</td>
+      <td colspan="2" class="top-row date">21 May 2024</td>
     </tr>
     <tr>
-      <td colspan="2" style="background:white; color:brown;">
+      <td colspan="2" class="company-info">
         <strong>Pay To :</strong><br>
         ABC Company<br>
         Delhi
       </td>
-      <td colspan="2" style="background:white; color:brown;">
+      <td colspan="2" class="customer-info">
         <strong>Customer :</strong><br>
         Ajay Kumar<br>
         Chennai
       </td>
     </tr>
     <tr>
-      <th style="background:yellow; color:blue;">Name</th>
-      <th style="background:yellow; color:blue;">Qty</th>
-      <th style="background:yellow; color:blue;">Price</th>
-      <th style="background:yellow; color:blue;">Total Price</th>
+      <th class="header-cell">Name</th>
+      <th class="header-cell">Qty</th>
+      <th class="header-cell">Price</th>
+      <th class="header-cell">Total Price</th>
     </tr>
     <tr>
-      <td style="color:black; background:white;">Pen</td>
-      <td style="color:black; background:white;">200</td>
-      <td style="color:black; background:white;">25</td>
-      <td style="color:black; background:white;">5000</td>
+      <td class="item-cell">Pen</td>
+      <td class="item-cell">200</td>
+      <td class="item-cell">25</td>
+      <td class="item-cell">5000</td>
     </tr>
     <tr>
-      <td style="color:black; background:white;">Pencil</td>
-      <td style="color:black; background:white;">100</td>
-      <td style="color:black; background:white;">15</td>
-      <td style="color:black; background:white;">1500</td>
+      <td class="item-cell">Pencil</td>
+      <td class="item-cell">100</td>
+      <td class="item-cell">15</td>
+      <td class="item-cell">1500</td>
     </tr>
     <tr>
-      <td colspan="3" style="text-align:right; color:brown; background:white;"><strong>Sub total</strong></td>
-      <td style="color:black; background:white;">6500</td>
+      <td colspan="3" class="sub-label"><strong>Sub total</strong></td>
+      <td class="sub-total">6500</td>
     </tr>
     <tr>
-      <td colspan="2" style="text-align:right; color:blue; background:yellow;">Tax</td>
-      <td style="color:blue; background:yellow;">10%</td>
-      <td style="color:black; background:yellow;">650</td>
+      <td colspan="2" class="tax-label">Tax</td>
+      <td class="tax-rate">10%</td>
+      <td class="tax-amount">650</td>
     </tr>
     <tr>
-      <td colspan="3" style="text-align:right; background:lightgreen;"><strong style="color:red;">Grand Total</strong></td>
-      <td style="background:lightgreen;"><strong style="color:red;">7150</strong></td>
+      <td colspan="3" class="grand-label"><strong>Grand Total</strong></td>
+      <td class="grand-total"><strong>7150</strong></td>
     </tr>
   </table>
 </body>
