@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  padding: 40px;
+}
+
+/* Header & Titles */
+h1 {
+  color: #2C3E50;
+}
+
+/* Invoice Table Base Styles */
+.invoice-table {
+  width: 500px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.invoice-table th, .invoice-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Color Classes */
+/* Text Colors */
+.t-red { color: #e74c3c; }
+.t-green { color: #27ae60; }
+.t-blue { color: #2980b9; }
+.t-black { color: #000; }
+.t-brown { color: #a0522d; }
+.t-white { color: #fff; }
+.t-gray { color: #555; }
+.t-lightgreen { color: #32CD32; }
+.t-bold { font-weight: bold; }
+
+/* Background Colors */
+.b-yellow { background: #fff7a3; }
+.b-lightgreen { background: #e0ffe0; }
+.b-white { background: #fff; }
+.b-gray { background: #ececec; }
+.b-blue { background: #d0e9ff; }
+.b-brown { background: #f4e3d1; }
+.b-black { background: #2c3e50; }
+.b-bold { font-weight: bold; }
+
+/* Special Cells Based on Invoice Image */
+.invoice-table th {
+  background: #eee; /* Default header background */
+}
+.invoice-table tr:last-child td {
+  background: #f7f7f7; /* Grand total row */
+}
+
+/* Example: Grand Total cell bold red on light green background */
+.grand-total {
+  color: #e74c3c;
+  background: #e0ffe0;
+  font-weight: bold;
+}
