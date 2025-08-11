@@ -23,7 +23,7 @@
 }
 
 /* Pay To / Customer row (brown text, white background) */
-.company-info, .customer-info {
+.company-info,{
   background: white;
   color: brown;
 }
