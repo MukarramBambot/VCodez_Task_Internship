@@ -3,109 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <title>Sales Invoice - ABC Company</title>
-  <!-- External CSS -->
-  <link rel="stylesheet" href="index.css">
-
-  <style>
-    /* Internal CSS: use class, id, element, grouped, universal selectors */
-
-    body {
-      font-family: Arial, sans-serif;
-      background: #fafafa;
-      padding: 40px;
-    }
-
-    .table-title, #header {
-      color: brown; /* grouped selector */
-    }
-
-    .invoice-table th {
-      background: #eee;
-      color: blue;
-    }
-    
-    .highlighted {
-      background-color: yellow;
-      color: black;
-    }
-
-    td.total {
-      background: lightgreen;
-      color: red;
-      font-weight: bold;
-    }
-    
-    #customer-block {
-      background: #fffbe7;
-      color: #333;
-    }
-
-    .sub-label {
-      color: green;
-    }
-    
-    * {
-      box-sizing: border-box;
-    }
-  </style>
 </head>
 <body>
-
-  <h1 id="header">ABC Company</h1>
-  <div class="table-title">Sales Invoice</div>
-  <div class="small-desc">
-    <span class="sub-label">Below is a detailed invoice for your recent purchase from ABC Company.</span> If you have any questions regarding this invoice, feel free to contact our support team.
-  </div>
-
-  <table class="invoice-table">
+  <table class="invoice-table" style="width:500px; border-collapse:collapse;">
     <tr>
-      <td colspan="2" style="background-color: lightgray; color: white;">Invoice #: 54434</td>
-      <td colspan="2" style="text-align:right; background-color: lightgray; color: white;">May 2025</td>
+      <td colspan="2" style="background:white; color:gray;">Invoice No: #54578953</td>
+      <td colspan="2" style="background:white; color:gray; text-align:right;">21 May 2024</td>
     </tr>
     <tr>
-      <td colspan="2" id="payto-block" style="background: #f3eee1;">
+      <td colspan="2" style="background:white; color:brown;">
         <strong>Pay To :</strong><br>
         ABC Company<br>
         Delhi
       </td>
-      <td colspan="2" id="customer-block">
+      <td colspan="2" style="background:white; color:brown;">
         <strong>Customer :</strong><br>
         Ajay Kumar<br>
         Chennai
       </td>
     </tr>
     <tr>
-      <th>Name/Desc</th>
-      <th>Quantity</th>
-      <th>Per Price</th>
-      <th>Cost</th>
-    </tr>
-    <tr class="highlighted">
-      <td>Pen</td>
-      <td>20</td>
-      <td>25</td>
-      <td>500</td>
+      <th style="background:yellow; color:blue;">Name</th>
+      <th style="background:yellow; color:blue;">Qty</th>
+      <th style="background:yellow; color:blue;">Price</th>
+      <th style="background:yellow; color:blue;">Total Price</th>
     </tr>
     <tr>
-      <td style="color:brown;">Pencil</td>
-      <td style="background-color:yellow;">10</td>
-      <td style="color:blue;">15</td>
-      <td style="background-color:lightgray;">150</td>
+      <td style="color:black; background:white;">Pen</td>
+      <td style="color:black; background:white;">200</td>
+      <td style="color:black; background:white;">25</td>
+      <td style="color:black; background:white;">5000</td>
     </tr>
     <tr>
-      <td colspan="3" style="text-align:right; color: brown;"><strong>Sub Total</strong></td>
-      <td>650</td>
+      <td style="color:black; background:white;">Pencil</td>
+      <td style="color:black; background:white;">100</td>
+      <td style="color:black; background:white;">15</td>
+      <td style="color:black; background:white;">1500</td>
     </tr>
     <tr>
-      <td colspan="2" style="text-align:right; background-color:#e3eaff; color: blue;">Tax</td>
-      <td style="color: green;">10%</td>
-      <td>65</td>
+      <td colspan="3" style="text-align:right; color:brown; background:white;"><strong>Sub total</strong></td>
+      <td style="color:black; background:white;">6500</td>
     </tr>
     <tr>
-      <td colspan="3" style="text-align:right;"><strong>Grand Total</strong></td>
-      <td class="total"><strong>Rs. 715/-</strong></td>
+      <td colspan="2" style="text-align:right; color:blue; background:yellow;">Tax</td>
+      <td style="color:blue; background:yellow;">10%</td>
+      <td style="color:black; background:yellow;">650</td>
+    </tr>
+    <tr>
+      <td colspan="3" style="text-align:right; background:lightgreen;"><strong style="color:red;">Grand Total</strong></td>
+      <td style="background:lightgreen;"><strong style="color:red;">7150</strong></td>
     </tr>
   </table>
-
 </body>
 </html>
