@@ -1,87 +1,73 @@
-/* Universal selector */
-* {
-  box-sizing: border-box;
-}
-
-/* Table styling */
+/* Table appearance */
 .invoice-table {
   width: 500px;
   border-collapse: collapse;
   margin: 40px auto;
   font-family: Arial, sans-serif;
-  background: white;
 }
 
-/* Table cells and headers border */
-.invoice-table th,
-.invoice-table td {
+/* Borders/padding for all cells and headers */
+.invoice-table th, .invoice-table td {
   border: 1px solid gray;
   padding: 8px;
   text-align: left;
 }
 
-/* Top row (Invoice No, Date): gray text, white background */
-.invoice-table tr:nth-child(1) td {
+/* Top row: Invoice No, Date (gray text, white background) */
+.top-row {
   background: white;
   color: gray;
 }
+.date {
+  text-align: right;
+}
 
-/* Second row (Pay To, Customer): brown text, white background */
-.invoice-table tr:nth-child(2) td {
+/* Pay To / Customer row (brown text, white background) */
+.company-info, .customer-info {
   background: white;
   color: brown;
 }
 
-/* Header row (Name, Qty, Price, Total Price): blue text, yellow background */
-.invoice-table tr:nth-child(3) th {
+/* Header row: blue text, yellow background */
+.header-cell {
   background: yellow;
   color: blue;
   font-weight: bold;
 }
 
-/* Item rows (Pen, Pencil): black text, white background */
-.invoice-table tr:nth-child(4) td,
-.invoice-table tr:nth-child(5) td {
+/* Item rows: black text, white background */
+.item-cell {
   background: white;
   color: black;
 }
 
-/* Subtotal row: brown text for label, black for total, white background */
-.invoice-table tr:nth-child(6) td {
+/* Subtotal row: brown text, white background for label; black text for value */
+.sub-label {
   background: white;
-}
-.invoice-table tr:nth-child(6) td[colspan="3"] {
   color: brown;
   text-align: right;
 }
-.invoice-table tr:nth-child(6) td:last-child {
+.sub-total {
+  background: white;
   color: black;
 }
 
-/* Tax row: blue text, yellow background for label and percent, black text for tax amount */
-.invoice-table tr:nth-child(7) td {
+/* Tax row: blue text, yellow background for label and rate; black text for amount */
+.tax-label, .tax-rate {
   background: yellow;
-}
-
-.invoice-table tr:nth-child(7) td:nth-child(1),
-.invoice-table tr:nth-child(7) td:nth-child(2),
-.invoice-table tr:nth-child(7) td:nth-child(3) {
   color: blue;
 }
-
-.invoice-table tr:nth-child(7) td:last-child {
+.tax-amount {
+  background: yellow;
   color: black;
 }
 
-/* Grand Total row: red bold text, lightgreen background, right-aligned label */
-.invoice-table tr:nth-child(8) td {
+/* Grand Total row: red bold text, lightgreen background, right-aligned */
+.grand-label, .grand-total {
   background: lightgreen;
+  text-align: right;
 }
-.invoice-table tr:nth-child(8) td[colspan="3"] strong,
-.invoice-table tr:nth-child(8) td strong {
+.grand-label strong, .grand-total strong {
   color: red;
   font-weight: bold;
-}
-.invoice-table tr:nth-child(8) td[colspan="3"] {
-  text-align: right;
 }
