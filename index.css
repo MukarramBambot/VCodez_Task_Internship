@@ -27,6 +27,10 @@
   background: white;
   color: brown;
 }
+.customer-info {
+  background: yellow;
+  color: blue;
+}
 
 /* Header row: blue text, yellow background */
 .header-cell {
