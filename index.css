@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Table appearance */
 .invoice-table {
   width: 500px;
@@ -73,3 +74,80 @@
   text-align: right;
   font-weight: bold;
 }
+=======
+/* Table appearance */
+.invoice-table {
+  width: 500px;
+  border-collapse: collapse;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Borders/padding for all cells and headers */
+.invoice-table th, .invoice-table td {
+  border: 1px solid gray;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Top row: Invoice No, Date (gray text, white background) */
+.top-row {
+  background: white;
+  color: gray;
+}
+.date {
+  text-align: right;
+}
+
+/* Pay To / Customer row (brown text, white background) */
+.company-info {
+  background: yellow;
+  color: red;
+}
+.customer-info {
+  background: yellow;
+  color: blue;
+}
+
+/* Header row: blue text, yellow background */
+.header-cell {
+  background: lightgreen;
+  color: green;
+  font-weight: bold;
+}
+
+/* Item rows: black text, white background */
+.item-cell {
+  background: white;
+  color: brown;
+}
+
+/* Subtotal row: brown text, white background for label; black text for value */
+.sub-label {
+  background: yellow;
+  color: black;
+  text-align: right;
+}
+.sub-total {
+  background: white;
+  color: black;
+}
+
+/* Tax row: blue text, yellow background for label and rate; black text for amount */
+.tax-label, .tax-rate {
+  background: yellow;
+  color: blue;
+}
+.tax-amount {
+  background: yellow;
+  color: black;
+}
+
+/* Grand Total row: red bold text, lightgreen background, right-aligned */
+.grand-label, .grand-total {
+  color: red;
+  background: lightgreen;
+  text-align: right;
+  font-weight: bold;
+}
+>>>>>>> a9f1307 (uploaded files)
