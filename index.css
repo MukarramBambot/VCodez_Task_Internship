@@ -1,55 +1,47 @@
 .grid {
   display: grid;
-  grid-template-columns: repeat(5, 52px);
+  grid-template-columns: repeat(4, 52px);
   grid-template-rows: repeat(6, 52px);
   gap: 10px;
   margin: 46px auto;
   width: max-content;
 }
+
 .cell {
-  border: 2px solid black;
-  border-radius: 8px;
+  border: 1px solid #ccc; /* thin light border like in MS Paint */
   width: 52px;
   height: 52px;
   box-sizing: border-box;
-  opacity: 0.93;
 }
-/* Column 1: blues/grays */
-.cell1 { background: linear-gradient(navy, slategray); }
-.cell6 { background: linear-gradient(steelblue, darkslategrey); }
-.cell11 { background: linear-gradient(gray, steelblue); }
-.cell16 { background: linear-gradient(lightsteelblue, gray); }
-.cell21 { background: linear-gradient(aliceblue, lightgray); }
-.cell26 { background: linear-gradient(white, gainsboro); }
 
-/* Column 2: greens */
-.cell2 { background: linear-gradient(forestgreen, darkgreen); }
-.cell7 { background: linear-gradient(limegreen, seagreen); }
-.cell12 { background: linear-gradient(yellowgreen, mediumseagreen); }
-.cell17 { background: linear-gradient(palegreen, darkolivegreen); }
-.cell22 { background: linear-gradient(honeydew, olivedrab); }
-.cell27 { background: linear-gradient(mintcream, lightgreen); }
+/* Column 1 - Blue/Gray tones */
+.cell1  { background-color: #3B4B50; }
+.cell5  { background-color: #48655C; }
+.cell9  { background-color: #5F787B; }
+.cell13 { background-color: #8B9A9E; }
+.cell17 { background-color: #B5C0C3; }
+.cell21 { background-color: #D5DDDF; }
 
-/* Column 3: olive to orange */
-.cell3 { background: linear-gradient(sienna, olive); }
-.cell8 { background: linear-gradient(peru, orange); }
-.cell13 { background: linear-gradient(darkkhaki, wheat); }
-.cell18 { background: linear-gradient(goldenrod, tan); }
-.cell23 { background: linear-gradient(cornsilk, moccasin); }
-.cell28 { background: linear-gradient(blanchedalmond, papayawhip); }
+/* Column 2 - Greens */
+.cell2  { background-color: #3E6D28; }
+.cell6  { background-color: #518D35; }
+.cell10 { background-color: #6BA94E; }
+.cell14 { background-color: #96C17E; }
+.cell18 { background-color: #BAD3A7; }
+.cell22 { background-color: #D6E5C7; }
 
-/* Column 4: brown to red */
-.cell4 { background: linear-gradient(brown, firebrick); }
-.cell9 { background: linear-gradient(indianred, salmon); }
-.cell14 { background: linear-gradient(darksalmon, sienna); }
-.cell19 { background: linear-gradient(peachpuff, peru); }
-.cell24 { background: linear-gradient(mistyrose, bisque); }
-.cell29 { background: linear-gradient(oldlace, linen); }
+/* Column 3 - Yellow/Orange/Brown */
+.cell3  { background-color: #6C3A24; }
+.cell7  { background-color: #8B4B2C; }
+.cell11 { background-color: #A7673F; }
+.cell15 { background-color: #C78C5F; }
+.cell19 { background-color: #DCB591; }
+.cell23 { background-color: #E9D6BD; }
 
-/* Column 5: dark red to pink */
-.cell5 { background: linear-gradient(maroon, darkred); }
-.cell10 { background: linear-gradient(crimson, tomato); }
-.cell15 { background: linear-gradient(lightcoral, red); }
-.cell20 { background: linear-gradient(pink, thistle); }
-.cell25 { background: linear-gradient(lavenderblush, snow); }
-.cell30 { background: linear-gradient(white, seashell); }
+/* Column 4 - Reds */
+.cell4  { background-color: #5A322E; }
+.cell8  { background-color: #7D3E36; }
+.cell12 { background-color: #9B4F45; }
+.cell16 { background-color: #B7675B; }
+.cell20 { background-color: #D29487; }
+.cell24 { background-color: #E4C3B8; }
