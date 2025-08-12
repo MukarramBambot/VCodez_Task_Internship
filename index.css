@@ -1,153 +1,53 @@
-<<<<<<< HEAD
-/* Table appearance */
-.invoice-table {
-  width: 500px;
-  border-collapse: collapse;
-  margin: 40px auto;
-  font-family: Arial, sans-serif;
-}
-
-/* Borders/padding for all cells and headers */
-.invoice-table th, .invoice-table td {
-  border: 1px solid gray;
-  padding: 8px;
-  text-align: left;
-}
-
-/* Top row: Invoice No, Date (gray text, white background) */
-.top-row {
+body {
   background: white;
-  color: gray;
-}
-.date {
-  text-align: right;
 }
 
-/* Pay To / Customer row (brown text, white background) */
-.company-info {
-  background: yellow;
-  color: red;
-}
-.customer-info {
-  background: yellow;
-  color: blue;
-}
-
-/* Header row: blue text, yellow background */
-.header-cell {
-  background: lightgreen;
-  color: green;
-  font-weight: bold;
+/* Grid setup: 4 columns, 5 rows */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  grid-template-rows: repeat(5, 60px);
+  gap: 12px;
+  margin: 48px auto;
+  width: max-content;
 }
 
-/* Item rows: black text, white background */
-.item-cell {
-  background: white;
-  color: brown;
+/* Base cell style using border, opacity, and gradient */
+.cell {
+  border: 2px solid black;
+  border-radius: 8px;
+  opacity: 0.8;
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
 }
 
-/* Subtotal row: brown text, white background for label; black text for value */
-.sub-label {
-  background: yellow;
-  color: black;
-  text-align: right;
-}
-.sub-total {
-  background: white;
-  color: black;
-}
+/* Color columns, using color names and gradients for subtle shade differences */
 
-/* Tax row: blue text, yellow background for label and rate; black text for amount */
-.tax-label, .tax-rate {
-  background: yellow;
-  color: blue;
-}
-.tax-amount {
-  background: yellow;
-  color: black;
-}
+/* 1st column: blues to teal */
+.cell1 { background: linear-gradient(to bottom right, navy, teal); }
+.cell2 { background: linear-gradient(to bottom right, steelblue, darkcyan); opacity: 0.7; }
+.cell3 { background: linear-gradient(to bottom right, slategray, cadetblue); opacity: 0.6; }
+.cell4 { background: linear-gradient(to bottom right, lightsteelblue, lightseagreen); opacity: 0.5; }
+.cell5 { background: linear-gradient(to bottom right, azure, honeydew); opacity: 0.4; }
 
-/* Grand Total row: red bold text, lightgreen background, right-aligned */
-.grand-label, .grand-total {
-  color: red;
-  background: lightgreen;
-  text-align: right;
-  font-weight: bold;
-}
-=======
-/* Table appearance */
-.invoice-table {
-  width: 500px;
-  border-collapse: collapse;
-  margin: 40px auto;
-  font-family: Arial, sans-serif;
-}
+/* 2nd column: greens */
+.cell6  { background: linear-gradient(to bottom right, forestgreen, green); }
+.cell7  { background: linear-gradient(to bottom right, mediumseagreen, olivedrab); opacity: 0.7; }
+.cell8  { background: linear-gradient(to bottom right, yellowgreen, limegreen); opacity: 0.6; }
+.cell9  { background: linear-gradient(to bottom right, lawngreen, palegreen); opacity: 0.5; }
+.cell10 { background: linear-gradient(to bottom right, mintcream, cornsilk); opacity: 0.4; }
 
-/* Borders/padding for all cells and headers */
-.invoice-table th, .invoice-table td {
-  border: 1px solid gray;
-  padding: 8px;
-  text-align: left;
-}
+/* 3rd column: brown/orange */
+.cell11 { background: linear-gradient(to bottom right, saddlebrown, orange); }
+.cell12 { background: linear-gradient(to bottom right, peru, goldenrod); opacity: 0.7; }
+.cell13 { background: linear-gradient(to bottom right, burlywood, wheat); opacity: 0.6; }
+.cell14 { background: linear-gradient(to bottom right, tan, peachpuff); opacity: 0.5; }
+.cell15 { background: linear-gradient(to bottom right, moccasin, papayawhip); opacity: 0.4; }
 
-/* Top row: Invoice No, Date (gray text, white background) */
-.top-row {
-  background: white;
-  color: gray;
-}
-.date {
-  text-align: right;
-}
-
-/* Pay To / Customer row (brown text, white background) */
-.company-info {
-  background: yellow;
-  color: red;
-}
-.customer-info {
-  background: yellow;
-  color: blue;
-}
-
-/* Header row: blue text, yellow background */
-.header-cell {
-  background: lightgreen;
-  color: green;
-  font-weight: bold;
-}
-
-/* Item rows: black text, white background */
-.item-cell {
-  background: white;
-  color: brown;
-}
-
-/* Subtotal row: brown text, white background for label; black text for value */
-.sub-label {
-  background: yellow;
-  color: black;
-  text-align: right;
-}
-.sub-total {
-  background: white;
-  color: black;
-}
-
-/* Tax row: blue text, yellow background for label and rate; black text for amount */
-.tax-label, .tax-rate {
-  background: yellow;
-  color: blue;
-}
-.tax-amount {
-  background: yellow;
-  color: black;
-}
-
-/* Grand Total row: red bold text, lightgreen background, right-aligned */
-.grand-label, .grand-total {
-  color: red;
-  background: lightgreen;
-  text-align: right;
-  font-weight: bold;
-}
->>>>>>> a9f1307 (uploaded files)
+/* 4th column: reds/pinks */
+.cell16 { background: linear-gradient(to bottom right, maroon, firebrick); }
+.cell17 { background: linear-gradient(to bottom right, indianred, tomato); opacity: 0.7; }
+.cell18 { background: linear-gradient(to bottom right, salmon, darksalmon); opacity: 0.6; }
+.cell19 { background: linear-gradient(to bottom right, lightcoral, pink); opacity: 0.5; }
+.cell20 { background: linear-gradient(to bottom right, mistyrose, linen); opacity: 0.4; }
