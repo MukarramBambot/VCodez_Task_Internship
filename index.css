@@ -15,33 +15,33 @@
 }
 
 /* Column 1 - Blue/Gray tones */
-.cell1  { background-color: #3B4B50; }
-.cell5  { background-color: #48655C; }
-.cell9  { background-color: #5F787B; }
-.cell13 { background-color: #8B9A9E; }
-.cell17 { background-color: #B5C0C3; }
-.cell21 { background-color: #D5DDDF; }
+.cell1  { background-color: darkslategray; }
+.cell5  { background-color: cadetblue; }
+.cell9  { background-color: lightseagreen; }
+.cell13 { background-color: lightsteelblue; }
+.cell17 { background-color: lightgray; }
+.cell21 { background-color: gainsboro; }
 
 /* Column 2 - Greens */
-.cell2  { background-color: #3E6D28; }
-.cell6  { background-color: #518D35; }
-.cell10 { background-color: #6BA94E; }
-.cell14 { background-color: #96C17E; }
-.cell18 { background-color: #BAD3A7; }
-.cell22 { background-color: #D6E5C7; }
+.cell2  { background-color: darkgreen; }
+.cell6  { background-color: seagreen; }
+.cell10 { background-color: mediumseagreen; }
+.cell14 { background-color: yellowgreen; }
+.cell18 { background-color: palegreen; }
+.cell22 { background-color: honeydew; }
 
 /* Column 3 - Yellow/Orange/Brown */
-.cell3  { background-color: #6C3A24; }
-.cell7  { background-color: #8B4B2C; }
-.cell11 { background-color: #A7673F; }
-.cell15 { background-color: #C78C5F; }
-.cell19 { background-color: #DCB591; }
-.cell23 { background-color: #E9D6BD; }
+.cell3  { background-color: saddlebrown; }
+.cell7  { background-color: sienna; }
+.cell11 { background-color: peru; }
+.cell15 { background-color: sandybrown; }
+.cell19 { background-color: burlywood; }
+.cell23 { background-color: cornsilk; }
 
 /* Column 4 - Reds */
-.cell4  { background-color: #5A322E; }
-.cell8  { background-color: #7D3E36; }
-.cell12 { background-color: #9B4F45; }
-.cell16 { background-color: #B7675B; }
-.cell20 { background-color: #D29487; }
-.cell24 { background-color: #E4C3B8; }
+.cell4  { background-color: brown; }
+.cell8  { background-color: indianred; }
+.cell12 { background-color: firebrick; }
+.cell16 { background-color: salmon; }
+.cell20 { background-color: darksalmon; }
+.cell24 { background-color: mistyrose; }
