@@ -3,17 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <title>Exact Color Grid</title>
-  <link rel="stylesheet" href="index.css">
+  <style>
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 52px);
+      grid-template-rows: repeat(6, 52px);
+      gap: 10px;
+      margin: 46px auto;
+      width: max-content;
+    }
+
+    .cell {
+      border: 1px solid #ccc; /* thin light border like in MS Paint */
+      width: 52px;
+      height: 52px;
+      box-sizing: border-box;
+    }
+
+    /* Column 1 - Blue/Gray tones */
+    .cell1  { background-color: #3B4B50; }
+    .cell5  { background-color: #48655C; }
+    .cell9  { background-color: #5F787B; }
+    .cell13 { background-color: #8B9A9E; }
+    .cell17 { background-color: #B5C0C3; }
+    .cell21 { background-color: #D5DDDF; }
+
+    /* Column 2 - Greens */
+    .cell2  { background-color: #3E6D28; }
+    .cell6  { background-color: #518D35; }
+    .cell10 { background-color: #6BA94E; }
+    .cell14 { background-color: #96C17E; }
+    .cell18 { background-color: #BAD3A7; }
+    .cell22 { background-color: #D6E5C7; }
+
+    /* Column 3 - Yellow/Orange/Brown */
+    .cell3  { background-color: #6C3A24; }
+    .cell7  { background-color: #8B4B2C; }
+    .cell11 { background-color: #A7673F; }
+    .cell15 { background-color: #C78C5F; }
+    .cell19 { background-color: #DCB591; }
+    .cell23 { background-color: #E9D6BD; }
+
+    /* Column 4 - Reds */
+    .cell4  { background-color: #5A322E; }
+    .cell8  { background-color: #7D3E36; }
+    .cell12 { background-color: #9B4F45; }
+    .cell16 { background-color: #B7675B; }
+    .cell20 { background-color: #D29487; }
+    .cell24 { background-color: #E4C3B8; }
+  </style>
 </head>
 <body>
   <div class="grid">
-    <!-- 6 rows × 5 columns = 30 squares -->
-    <div class="cell cell1"></div>  <div class="cell cell2"></div>  <div class="cell cell3"></div>  <div class="cell cell4"></div>  <div class="cell cell5"></div>
-    <div class="cell cell6"></div>  <div class="cell cell7"></div>  <div class="cell cell8"></div>  <div class="cell cell9"></div>  <div class="cell cell10"></div>
-    <div class="cell cell11"></div> <div class="cell cell12"></div> <div class="cell cell13"></div> <div class="cell cell14"></div> <div class="cell cell15"></div>
-    <div class="cell cell16"></div> <div class="cell cell17"></div> <div class="cell cell18"></div> <div class="cell cell19"></div> <div class="cell cell20"></div>
-    <div class="cell cell21"></div> <div class="cell cell22"></div> <div class="cell cell23"></div> <div class="cell cell24"></div> <div class="cell cell25"></div>
-    <div class="cell cell26"></div> <div class="cell cell27"></div> <div class="cell cell28"></div> <div class="cell cell29"></div> <div class="cell cell30"></div>
+    <div class="cell cell1"></div>  <div class="cell cell2"></div>  <div class="cell cell3"></div>  <div class="cell cell4"></div>
+    <div class="cell cell5"></div>  <div class="cell cell6"></div>  <div class="cell cell7"></div>  <div class="cell cell8"></div>
+    <div class="cell cell9"></div>  <div class="cell cell10"></div> <div class="cell cell11"></div> <div class="cell cell12"></div>
+    <div class="cell cell13"></div> <div class="cell cell14"></div> <div class="cell cell15"></div> <div class="cell cell16"></div>
+    <div class="cell cell17"></div> <div class="cell cell18"></div> <div class="cell cell19"></div> <div class="cell cell20"></div>
+    <div class="cell cell21"></div> <div class="cell cell22"></div> <div class="cell cell23"></div> <div class="cell cell24"></div>
   </div>
 </body>
 </html>
