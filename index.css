@@ -1,36 +1,55 @@
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 60px);
-  grid-template-rows: repeat(5, 60px);
-  gap: 12px;
-  margin: 48px auto;
+  grid-template-columns: repeat(5, 52px);
+  grid-template-rows: repeat(6, 52px);
+  gap: 10px;
+  margin: 46px auto;
   width: max-content;
 }
 .cell {
   border: 2px solid black;
   border-radius: 8px;
-  opacity: 0.8;
-  width: 60px;
-  height: 60px;
+  width: 52px;
+  height: 52px;
   box-sizing: border-box;
+  opacity: 0.93;
 }
-.cell1 { background: linear-gradient(to bottom right, navy, teal); }
-.cell2 { background: linear-gradient(to bottom right, steelblue, darkcyan); opacity: 0.7; }
-.cell3 { background: linear-gradient(to bottom right, slategray, cadetblue); opacity: 0.6; }
-.cell4 { background: linear-gradient(to bottom right, lightsteelblue, lightseagreen); opacity: 0.5; }
-.cell5 { background: linear-gradient(to bottom right, azure, honeydew); opacity: 0.4; }
-.cell6  { background: linear-gradient(to bottom right, forestgreen, green); }
-.cell7  { background: linear-gradient(to bottom right, mediumseagreen, olivedrab); opacity: 0.7; }
-.cell8  { background: linear-gradient(to bottom right, yellowgreen, limegreen); opacity: 0.6; }
-.cell9  { background: linear-gradient(to bottom right, lawngreen, palegreen); opacity: 0.5; }
-.cell10 { background: linear-gradient(to bottom right, mintcream, cornsilk); opacity: 0.4; }
-.cell11 { background: linear-gradient(to bottom right, saddlebrown, orange); }
-.cell12 { background: linear-gradient(to bottom right, peru, goldenrod); opacity: 0.7; }
-.cell13 { background: linear-gradient(to bottom right, burlywood, wheat); opacity: 0.6; }
-.cell14 { background: linear-gradient(to bottom right, tan, peachpuff); opacity: 0.5; }
-.cell15 { background: linear-gradient(to bottom right, moccasin, papayawhip); opacity: 0.4; }
-.cell16 { background: linear-gradient(to bottom right, maroon, firebrick); }
-.cell17 { background: linear-gradient(to bottom right, indianred, tomato); opacity: 0.7; }
-.cell18 { background: linear-gradient(to bottom right, salmon, darksalmon); opacity: 0.6; }
-.cell19 { background: linear-gradient(to bottom right, lightcoral, pink); opacity: 0.5; }
-.cell20 { background: linear-gradient(to bottom right, mistyrose, linen); opacity: 0.4; }
+/* Column 1: blues/grays */
+.cell1 { background: linear-gradient(navy, slategray); }
+.cell6 { background: linear-gradient(steelblue, darkslategrey); }
+.cell11 { background: linear-gradient(gray, steelblue); }
+.cell16 { background: linear-gradient(lightsteelblue, gray); }
+.cell21 { background: linear-gradient(aliceblue, lightgray); }
+.cell26 { background: linear-gradient(white, gainsboro); }
+
+/* Column 2: greens */
+.cell2 { background: linear-gradient(forestgreen, darkgreen); }
+.cell7 { background: linear-gradient(limegreen, seagreen); }
+.cell12 { background: linear-gradient(yellowgreen, mediumseagreen); }
+.cell17 { background: linear-gradient(palegreen, darkolivegreen); }
+.cell22 { background: linear-gradient(honeydew, olivedrab); }
+.cell27 { background: linear-gradient(mintcream, lightgreen); }
+
+/* Column 3: olive to orange */
+.cell3 { background: linear-gradient(sienna, olive); }
+.cell8 { background: linear-gradient(peru, orange); }
+.cell13 { background: linear-gradient(darkkhaki, wheat); }
+.cell18 { background: linear-gradient(goldenrod, tan); }
+.cell23 { background: linear-gradient(cornsilk, moccasin); }
+.cell28 { background: linear-gradient(blanchedalmond, papayawhip); }
+
+/* Column 4: brown to red */
+.cell4 { background: linear-gradient(brown, firebrick); }
+.cell9 { background: linear-gradient(indianred, salmon); }
+.cell14 { background: linear-gradient(darksalmon, sienna); }
+.cell19 { background: linear-gradient(peachpuff, peru); }
+.cell24 { background: linear-gradient(mistyrose, bisque); }
+.cell29 { background: linear-gradient(oldlace, linen); }
+
+/* Column 5: dark red to pink */
+.cell5 { background: linear-gradient(maroon, darkred); }
+.cell10 { background: linear-gradient(crimson, tomato); }
+.cell15 { background: linear-gradient(lightcoral, red); }
+.cell20 { background: linear-gradient(pink, thistle); }
+.cell25 { background: linear-gradient(lavenderblush, snow); }
+.cell30 { background: linear-gradient(white, seashell); }
