@@ -1,1 +1,44 @@
+.main-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
 
+.task-section {
+    flex: 1;
+}
+
+.radial-gradient-demo {
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(
+        circle,
+        white 10%,         /* bright yellow center */
+        lightyellow 20%,    /* pale yellow ring */
+        orange 40%,         /* reddish-orange ring */
+        brown 60%,          /* brownish ring */
+        black 80%           /* dark grey/black outer */
+    );
+    border: 2px solid black;
+}
+
+.filters-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 13px;
+}
+
+.filters-grid img {
+    width: 50%;
+    height: auto;
+    border: 2px solid #ccc;
+}
+
+/* Filters for Task 5 */
+.filter-blur { filter: blur(4px); }
+.filter-brightness { filter: brightness(150%); }
+.filter-contrast { filter: contrast(200%); }
+.filter-drop-shadow { filter: drop-shadow(8px 8px 10px gray); }
+.filter-grayscale { filter: grayscale(100%); }
+.filter-hue-rotate { filter: hue-rotate(90deg); }
+.filter-invert { filter: invert(100%); }
