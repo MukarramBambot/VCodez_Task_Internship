@@ -1,106 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Task 4 & 5</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    background: #fafafa;
-  }
-
-  /* Container for both tasks */
-  .tasks {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    align-items: start;
-  }
-
-  /* ===== Task 4: Radial Gradient ===== */
-  .radial-gradient-demo {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background: radial-gradient(circle at center,
-                yellow 10%,
-                red 30%,
-                brown 60%,
-                olive 85%);
-    border: 2px solid #444;
-  }
-
-  /* ===== Task 5: Filters Grid ===== */
-  .filters-task {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
-
-  .filters-task img {
-    width: 250px;
-    border: 2px solid #555;
-  }
-
-  .filters-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-  }
-
-  .grid-item {
-    padding: 10px;
-    background: #f5f5f5;
-    border: 2px solid #888;
-    text-align: center;
-    border-radius: 6px;
-    font-size: 1em;
-    font-weight: bold;
-  }
-
-  /* Example Filters */
-  .drop-shadow { filter: drop-shadow(4px 4px 6px #222); }
-  .blur { filter: blur(4px); }
-  .grayscale { filter: grayscale(100%); }
-  .brightness { filter: brightness(1.5); }
-  .hue-rotate { filter: hue-rotate(90deg); }
-  .contrast { filter: contrast(200%); }
-  .invert { filter: invert(100%); }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 4 & 5</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
-<h1>Task 4 & 5</h1>
-
-<div class="tasks">
-
-  <!-- Task 4: Radial Gradient -->
-  <div>
-    <h2>Task 4: Radial Gradient</h2>
+  <!-- Task 1 -->
+  <section class="task-section">
+    <h1>Task 1: Radial Gradient</h1>
     <div class="radial-gradient-demo"></div>
-  </div>
+  </section>
 
-  <!-- Task 5: Image Filters -->
-  <div>
-    <h2>Task 5: Image Filters</h2>
-    <div class="filters-task">
-      <img src="Car.jpg" alt="Car Image">
-      <div class="filters-grid">
-        <div class="grid-item">original</div>
-        <div class="grid-item drop-shadow">drop shadow</div>
-        <div class="grid-item blur">blur</div>
-        <div class="grid-item grayscale">grayscale</div>
-        <div class="grid-item brightness">brightness</div>
-        <div class="grid-item hue-rotate">hue-rotate</div>
-        <div class="grid-item contrast">contrast</div>
-        <div class="grid-item invert">invert</div>
+  <!-- Task 2 -->
+  <section class="task-section">
+    <h1>Task 2: Image Filters</h1>
+    <div class="filters-grid">
+      <div class="grid-item">
+        <img src="Car.jpg" alt="Original">
+        <p>Original</p>
+      </div>
+      <div class="grid-item blur">
+        <img src="Car.jpg" alt="Blur">
+        <p>Blur</p>
+      </div>
+      <div class="grid-item brightness">
+        <img src="Car.jpg" alt="Brightness">
+        <p>Brightness</p>
+      </div>
+      <div class="grid-item contrast">
+        <img src="Car.jpg" alt="Contrast">
+        <p>Contrast</p>
+      </div>
+      <div class="grid-item drop-shadow">
+        <img src="Car.jpg" alt="Drop Shadow">
+        <p>Drop Shadow</p>
+      </div>
+      <div class="grid-item grayscale">
+        <img src="Car.jpg" alt="Grayscale">
+        <p>Grayscale</p>
+      </div>
+      <div class="grid-item hue-rotate">
+        <img src="Car.jpg" alt="Hue Rotate">
+        <p>Hue Rotate</p>
+      </div>
+      <div class="grid-item invert">
+        <img src="Car.jpg" alt="Invert">
+        <p>Invert</p>
       </div>
     </div>
-  </div>
-
-</div>
+  </section>
 
 </body>
 </html>
