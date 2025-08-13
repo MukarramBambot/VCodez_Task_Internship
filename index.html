@@ -1,121 +1,106 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Sales Invoice - ABC Company</title>
-  <link rel="stylesheet" href="index.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Task 4 & 5</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #fafafa;
+  }
+
+  /* Container for both tasks */
+  .tasks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+  }
+
+  /* ===== Task 4: Radial Gradient ===== */
+  .radial-gradient-demo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: radial-gradient(circle at center,
+                yellow 10%,
+                red 30%,
+                brown 60%,
+                olive 85%);
+    border: 2px solid #444;
+  }
+
+  /* ===== Task 5: Filters Grid ===== */
+  .filters-task {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .filters-task img {
+    width: 250px;
+    border: 2px solid #555;
+  }
+
+  .filters-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .grid-item {
+    padding: 10px;
+    background: #f5f5f5;
+    border: 2px solid #888;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  /* Example Filters */
+  .drop-shadow { filter: drop-shadow(4px 4px 6px #222); }
+  .blur { filter: blur(4px); }
+  .grayscale { filter: grayscale(100%); }
+  .brightness { filter: brightness(1.5); }
+  .hue-rotate { filter: hue-rotate(90deg); }
+  .contrast { filter: contrast(200%); }
+  .invert { filter: invert(100%); }
+</style>
 </head>
 <body>
-  <table class="invoice-table">
-    <tr>
-      <td colspan="2" class="top-row">Invoice No: #54578953</td>
-      <td colspan="2" class="top-row date">21 May 2024</td>
-    </tr>
-    <tr>
-      <td colspan="2" class="company-info">
-        <strong>Pay To :</strong><br>
-        ABC Company<br>
-        Delhi
-      </td>
-      <td colspan="2" class="customer-info">
-        <strong>Customer :</strong><br>
-        Ajay Kumar<br>
-        Chennai
-      </td>
-    </tr>
-    <tr>
-      <th class="header-cell">Name</th>
-      <th class="header-cell">Qty</th>
-      <th class="header-cell">Price</th>
-      <th class="header-cell">Total Price</th>
-    </tr>
-    <tr>
-      <td class="item-cell">Pen</td>
-      <td class="item-cell">200</td>
-      <td class="item-cell">25</td>
-      <td class="item-cell">5000</td>
-    </tr>
-    <tr>
-      <td class="item-cell">Pencil</td>
-      <td class="item-cell">100</td>
-      <td class="item-cell">15</td>
-      <td class="item-cell">1500</td>
-    </tr>
-    <tr>
-      <td colspan="3" class="sub-label"><strong>Sub total</strong></td>
-      <td class="sub-total">6500</td>
-    </tr>
-    <tr>
-      <td colspan="2" class="tax-label">Tax</td>
-      <td class="tax-rate">10%</td>
-      <td class="tax-amount">650</td>
-    </tr>
-    <tr>
-      <td colspan="3" class="grand-label"><strong>Grand Total</strong></td>
-      <td class="grand-total"><strong>7150</strong></td>
-    </tr>
-  </table>
+
+<h1>Task 4 & 5</h1>
+
+<div class="tasks">
+
+  <!-- Task 4: Radial Gradient -->
+  <div>
+    <h2>Task 4: Radial Gradient</h2>
+    <div class="radial-gradient-demo"></div>
+  </div>
+
+  <!-- Task 5: Image Filters -->
+  <div>
+    <h2>Task 5: Image Filters</h2>
+    <div class="filters-task">
+      <img src="Car.jpg" alt="Car Image">
+      <div class="filters-grid">
+        <div class="grid-item">original</div>
+        <div class="grid-item drop-shadow">drop shadow</div>
+        <div class="grid-item blur">blur</div>
+        <div class="grid-item grayscale">grayscale</div>
+        <div class="grid-item brightness">brightness</div>
+        <div class="grid-item hue-rotate">hue-rotate</div>
+        <div class="grid-item contrast">contrast</div>
+        <div class="grid-item invert">invert</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
 </body>
 </html>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Sales Invoice - ABC Company</title>
-  <link rel="stylesheet" href="index.css">
-</head>
-<body>
-  <table class="invoice-table">
-    <tr>
-      <td colspan="2" class="top-row">Invoice No: #54578953</td>
-      <td colspan="2" class="top-row date">21 May 2024</td>
-    </tr>
-    <tr>
-      <td colspan="2" class="company-info">
-        <strong>Pay To :</strong><br>
-        ABC Company<br>
-        Delhi
-      </td>
-      <td colspan="2" class="customer-info">
-        <strong>Customer :</strong><br>
-        Ajay Kumar<br>
-        Chennai
-      </td>
-    </tr>
-    <tr>
-      <th class="header-cell">Name</th>
-      <th class="header-cell">Qty</th>
-      <th class="header-cell">Price</th>
-      <th class="header-cell">Total Price</th>
-    </tr>
-    <tr>
-      <td class="item-cell">Pen</td>
-      <td class="item-cell">200</td>
-      <td class="item-cell">25</td>
-      <td class="item-cell">5000</td>
-    </tr>
-    <tr>
-      <td class="item-cell">Pencil</td>
-      <td class="item-cell">100</td>
-      <td class="item-cell">15</td>
-      <td class="item-cell">1500</td>
-    </tr>
-    <tr>
-      <td colspan="3" class="sub-label"><strong>Sub total</strong></td>
-      <td class="sub-total">6500</td>
-    </tr>
-    <tr>
-      <td colspan="2" class="tax-label">Tax</td>
-      <td class="tax-rate">10%</td>
-      <td class="tax-amount">650</td>
-    </tr>
-    <tr>
-      <td colspan="3" class="grand-label"><strong>Grand Total</strong></td>
-      <td class="grand-total"><strong>7150</strong></td>
-    </tr>
-  </table>
-</body>
-</html>
->>>>>>> a9f1307 (uploaded files)
