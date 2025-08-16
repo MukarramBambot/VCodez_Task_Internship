@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About - Event WebPage</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: white;
+        }
+
+        .container {
+            width: 100vw;
+            margin: 0;
+            border: none;
+            background: white;
+            box-sizing: border-box;
+            padding: 0;
+        }
+
+        .banner {
+            width: 100vw;
+            background: purple;
+            padding-top: 28px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid black;
+            box-sizing: border-box;
+        }
+        .banner h1 {
+            color: white;
+            font-family: Georgia, serif;
+            font-size: 2.3rem;
+            text-align: center;
+            font-weight: bold;
+            margin: 0 0 7px 0;
+            letter-spacing: 1px;
+        }
+        .subtitle {
+            color: lavenderblush;
+            font-family: Georgia, serif;
+            font-size: 1.1rem;
+            text-align: center;
+            font-style: italic;
+            margin: 0 0 12px 0;
+            letter-spacing: 0.6px;
+        }
+        .banner nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background: black;
+            display: flex;
+            justify-content: center;
+            border-top: 2px solid purple;
+            width: 100vw;
+        }
+        .banner nav ul li {
+            margin: 0;
+        }
+        .banner nav ul li a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            padding: 12px 44px;
+            font-weight: bold;
+            font-size: 1.16rem;
+            transition: background 0.2s;
+            border-radius: 2px;
+        }
+        .banner nav ul li a:hover {
+            background: plum;
+        }
+
+        .content-section {
+            background: white;
+            width: 100vw;
+            box-sizing: border-box;
+            padding: 36px 0 36px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .content-box {
+            display: flex;
+            border: 2px solid black;
+            background: rgb(233, 233, 104);
+            padding: 32px 36px 24px 36px;
+            align-items: flex-start;
+            width: 90vw;
+            max-width: 930px;
+            box-sizing: border-box;
+        }
+        .content-left {
+            flex: 2;
+            margin-right: 46px;
+            min-width: 250px;
+            max-width: 65%;
+        }
+        .about-title {
+            display: block;
+            color: purple;
+            font-size: 1.2rem;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 12px;
+            letter-spacing: 0.6px;
+        }
+        .desc-text {
+            color: black;
+            font-size: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+            line-height: 1.6;
+            font-weight: 600;
+        }
+        .content-right {
+            flex: 1.2;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-end;
+            min-width: 220px;
+            max-width: 35%;
+        }
+        .content-right img {
+            width: 320px;
+            max-width: 100%;
+            height: auto;
+            border: 2px solid black;
+            background: white;
+        }
+        @media screen and (max-width: 900px) {
+            .content-box {
+                flex-direction: column;
+                align-items: center;
+                width: 95vw;
+                padding: 18px 2vw 18px 2vw;
+                max-width: 100vw;
+            }
+            .content-left, .content-right {
+                max-width: 100%;
+                margin-right: 0;
+                min-width: unset;
+            }
+            .content-right {
+                margin-top: 2rem;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="banner">
+            <h1>Welcome to Event WebPage</h1>
+            <p class="subtitle">Design the Future</p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">index</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="Schedule.html">Schedule</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content-section">
+            <div class="content-box">
+                <div class="content-left">
+                    <span class="about-title">ABOUT</span>
+                    <p class="desc-text">
+                        Dreambright India's hospitality and services match international standards, which is the reason we can give concreteness to a fragmented piece of idea/concept. Giving attention to the minute details and specifications provided by clients we have been able to efficiently put our best foot forward and offer the most reliable and pragmatic solutions and services.
+                    </p>
+                </div>
+                <div class="content-right">
+                    <img src="https://c7.alamy.com/comp/F1MCWK/background-concept-wordcloud-illustration-of-event-management-glowing-F1MCWK.jpg" alt="Event Night">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
