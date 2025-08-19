@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: skyblue;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: aliceblue;
+  border: 2px solid steelblue;
+  padding: 30px 40px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 2px 4px 10px lightsteelblue;
+  width: 320px;
+}
+
+h1 {
+  color: royalblue;
+  margin-bottom: 18px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: inline-block;
+  color: mediumblue;
+}
+
+select {
+  padding: 8px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid dodgerblue;
+  margin-top: 8px;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 24px;
+  background-color: navy;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: royalblue;
+  color: aliceblue;
+}
+
+.output {
+  margin-top: 24px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: mediumblue;
+}
