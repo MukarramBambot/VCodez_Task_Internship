@@ -7,7 +7,6 @@ body {
   align-items: center;
   height: 100vh;
 }
-
 .container {
   background: aliceblue;
   border: 2px solid steelblue;
@@ -17,19 +16,16 @@ body {
   box-shadow: 2px 4px 10px lightsteelblue;
   width: 320px;
 }
-
 h1 {
   color: royalblue;
   margin-bottom: 18px;
 }
-
 label {
   font-weight: bold;
   margin-bottom: 8px;
   display: inline-block;
   color: mediumblue;
 }
-
 select {
   padding: 8px;
   width: 100%;
@@ -38,7 +34,6 @@ select {
   margin-top: 8px;
   font-size: 1rem;
 }
-
 button {
   margin-top: 20px;
   padding: 10px 24px;
@@ -50,12 +45,10 @@ button {
   font-weight: bold;
   font-size: 1rem;
 }
-
 button:hover {
   background-color: royalblue;
   color: aliceblue;
 }
-
 .output {
   margin-top: 24px;
   font-size: 1.2rem;
