@@ -12,6 +12,3 @@ document.getElementById('suggestBtn').addEventListener('click', function() {
     message.textContent = "Snack time!";
   }
 });
-
-
-src="script.js"
