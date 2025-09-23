@@ -1,7 +1,5 @@
 # Task 12 - List and Tuple Operations
 
-from collections import Counter
-
 # ----------------- LIST OPERATIONS -----------------
 print("### LIST OPERATIONS ###")
 
@@ -61,6 +59,8 @@ print("5. 5th element:", my_tuple[4])
 print("   5th element from last:", my_tuple[-5])
 
 # 6. Find repeated elements in the tuple
-count = Counter(my_tuple)
-repeated = [item for item, freq in count.items() if freq > 1]
-print("6. Repeated elements:", repeated)
+repeated = []
+for item in my_tuple:
+    if my_tuple.count(item) > 1 and item not in repeated:
+        repeated.append(item)
+print("6. find Repeated elements:", repeated)
