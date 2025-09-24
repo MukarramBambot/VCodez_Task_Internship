@@ -78,7 +78,8 @@ Tuple:
 - program to unpack a tuple in several variables
 - program to add an item in a tuple
 - program to get 5th element from a tuple and also the 5th element from the last
-- program to find repeated elements in a tuple  
+- program to find repeated elements in a tuple
+
 ---
 
 ## 📑 Assessments  
