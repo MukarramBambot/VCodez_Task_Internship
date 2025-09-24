@@ -64,21 +64,20 @@ This repo will also serve as a **reference for my future projects and learning p
     - Inverted Full Pyramid  
     - Parallelogram  
 12. [Task 12 - List and Tuple Operations](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-12)
-List:
-- Write a program to sum all the items in a list
-- Write a program to multiply all the items in a list
-- Write a program to get the largest number from a list
-- Write a program to get the smallest number from a list
-- Write a program to remove duplicates from a list
-- Write a program to check if a list is empty or not
-
-Tuple:
-- program to create a tuple with different datatypes
-- program to create a tuple with numbers and print one item
-- program to unpack a tuple in several variables
-- program to add an item in a tuple
-- program to get 5th element from a tuple and also the 5th element from the last
-- program to find repeated elements in a tuple
+- List:
+    - Write a program to sum all the items in a list
+    - Write a program to multiply all the items in a list
+    - Write a program to get the largest number from a list
+    - Write a program to get the smallest number from a list
+    - Write a program to remove duplicates from a list
+    - Write a program to check if a list is empty or not
+- Tuple:
+    - program to create a tuple with different datatypes
+    - program to create a tuple with numbers and print one item
+    - program to unpack a tuple in several variables
+    - program to add an item in a tuple
+    - program to get 5th element from a tuple and also the 5th element from the last
+    - program to find repeated elements in a tuple
 
 ---
 
