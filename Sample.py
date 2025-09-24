@@ -1,66 +1,44 @@
-# Task 12 - List and Tuple Operations
+# Task 13 - Set Programs in Python
 
-# ----------------- LIST OPERATIONS -----------------
-print("### LIST OPERATIONS ###")
+print("### SET PROGRAMS ###")
 
-# Define one list for all operations
-my_list = [10, 20, 30, 40, 20, 10, 50]
-print("Original List:", my_list)
+# Define sets at the start
+my_set = {10, 20, 30, 40}
+set_a = {1, 2, 3, 4, 5}
+set_b = {4, 5, 6, 7, 8}
 
-# 1. Sum all the items
-print("1. Sum of items:", sum(my_list))
+# 1. Create a set
+print("1. Created Set:", my_set)
+print("-" * 190)
 
-# 2. Multiply all the items
-product = 1
-for num in my_list:
-    product *= num
-print("2. Product of items:", product)
+# 2. Iterate over sets
+print("2. Iterating over Set:")
+for item in my_set:
+    print(item)
+print("-" * 190)
 
-# 3. Largest number
-print("3. Largest number:", max(my_list))
+# 3. Add elements to a set
+new_set = my_set.copy()   # keeping original safe
+new_set.add(50)
+print("3. After Adding 50:", new_set)
+print("-" * 190)
 
-# 4. Smallest number
-print("4. Smallest number:", min(my_list))
+# 4. Remove an item from a given set
+removed_set = new_set.copy()
+removed_set.remove(20)  # if 20 not present, error
+print("4. After Removing 20:", removed_set)
+print("-" * 190)
 
-# 5. Remove duplicates
-unique_list = list(set(my_list))
-print("5. List without duplicates:", unique_list)
+# 5. Remove an item if present
+discarded_set = removed_set.copy()
+discarded_set.discard(100)  # no error if not present
+print("5. After Discarding 100 (no error if not present):", discarded_set)
+print("-" * 190)
 
-# 6. Check if list is empty
-print("6. Is the list empty?:", "Yes" if not my_list else "No")
+# 6. Create an intersection of sets
+print("6. Intersection of set_a and set_b:", set_a.intersection(set_b))
+print("-" * 190)
 
-print("-" * 100)  # separator
-
-# ----------------- TUPLE OPERATIONS -----------------
-print("### TUPLE OPERATIONS ###")
-
-# Define one tuple for all operations
-my_tuple = (10, 20, 30, 40, 50, 20, "Hello", 3.14, True, 40)
-print("Original Tuple:", my_tuple)
-
-# 1. Tuple with different datatypes
-print("1. Tuple with different datatypes:", my_tuple)
-
-# 2. Print one item (3rd element)
-print("2. 3rd element:", my_tuple[2])
-
-# 3. Unpack first three items into variables
-a, b, c = my_tuple[0:3]
-print("3. Unpacked values:", a, b, c)
-
-# 4. Add an item (tuples are immutable → convert to list → back to tuple)
-temp_list = list(my_tuple)
-temp_list.append("NewItem")
-my_tuple = tuple(temp_list)
-print("4. Tuple after adding an item:", my_tuple)
-
-# 5. Get 5th element and 5th element from the last
-print("5. 5th element:", my_tuple[4])
-print("   5th element from last:", my_tuple[-5])
-
-# 6. Find repeated elements in the tuple
-repeated = []
-for item in my_tuple:
-    if my_tuple.count(item) > 1 and item not in repeated:
-        repeated.append(item)
-print("6. find Repeated elements:", repeated)
+# 7. Create a union of sets
+print("7. Union of set_a and set_b:", set_a.union(set_b))
+print("-" * 190)
