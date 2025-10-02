@@ -88,6 +88,8 @@ This repo will also serve as a **reference for my future projects and learning p
     - Write a Python program to remove an item from a set if it is present in the set.
     - Write a Python program to create an intersection of sets.
     - Write a Python program to create a union of sets.
+14. [Task 14: File Handling in Python (r+, w+, a+)](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/task-14)  
+15. [Task 15: Difference between map, filter, and reduce (with real-time examples)](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/task-15)  
 
 ---
 
