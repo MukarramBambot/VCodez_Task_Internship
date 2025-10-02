@@ -64,20 +64,32 @@ This repo will also serve as a **reference for my future projects and learning p
     - Inverted Full Pyramid  
     - Parallelogram  
 12. [Task 12 - List and Tuple Operations](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-12)
-- List:
+- List:-
     - Write a program to sum all the items in a list
     - Write a program to multiply all the items in a list
     - Write a program to get the largest number from a list
     - Write a program to get the smallest number from a list
     - Write a program to remove duplicates from a list
     - Write a program to check if a list is empty or not
-- Tuple:
+- Tuple:-
     - program to create a tuple with different datatypes
     - program to create a tuple with numbers and print one item
     - program to unpack a tuple in several variables
     - program to add an item in a tuple
     - program to get 5th element from a tuple and also the 5th element from the last
     - program to find repeated elements in a tuple
+
+13. [Task 13 - Set Programs in Python](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-13)
+- Set:-
+    - Write a Python program to create a set.
+    - Write a Python program to iterate over sets. 
+    - Write a Python program to add elements to a set.
+    -  Write a Python program to remove item from a given set.
+    - Write a Python program to remove an item from a set if it is present in the set.
+    - Write a Python program to create an intersection of sets.
+    - Write a Python program to create a union of sets.
+14. [Task 14: File Handling in Python (r+, w+, a+)](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/task-14)  
+15. [Task 15: Difference between map, filter, and reduce (with real-time examples)](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/task-15)  
 
 ---
 
