@@ -1,44 +1,31 @@
-# Task 13 - Set Programs in Python
+print("### Task 15: Difference between map, filter, and reduce ###\n")
 
-print("### SET PROGRAMS ###")
+from functools import reduce
 
-# Define sets at the start
-my_set = {10, 20, 30, 40}
-set_a = {1, 2, 3, 4, 5}
-set_b = {4, 5, 6, 7, 8}
+# Real-time Example: Online Shopping Prices
+prices = [250, 450, 120, 999, 75, 300]
 
-# 1. Create a set
-print("1. Created Set:", my_set)
-print("-" * 190)
+print("Original Prices:", prices)
+print("-" * 120)
 
-# 2. Iterate over sets
-print("2. Iterating over Set:")
-for item in my_set:
-    print(item)
-print("-" * 190)
+# 1. map() → Apply a function to each element
+gst_prices = list(map(lambda p: p * 1.10, prices))
+print("1. map() → Prices after adding 10% GST:", gst_prices)
+print("-" * 120)
 
-# 3. Add elements to a set
-new_set = my_set.copy()   # keeping original safe
-new_set.add(50)
-print("3. After Adding 50:", new_set)
-print("-" * 190)
+# 2. filter() → Select elements based on condition
+premium_products = list(filter(lambda p: p > 300, prices))
+print("2. filter() → Premium products (above 300):", premium_products)
+print("-" * 120)
 
-# 4. Remove an item from a given set
-removed_set = new_set.copy()
-removed_set.remove(20)  # if 20 not present, error
-print("4. After Removing 20:", removed_set)
-print("-" * 190)
+# 3. reduce() → Apply rolling computation
+total_amount = reduce(lambda x, y: x + y, prices)
+print("3. reduce() → Total amount of cart:", total_amount)
+print("-" * 120)
 
-# 5. Remove an item if present
-discarded_set = removed_set.copy()
-discarded_set.discard(100)  # no error if not present
-print("5. After Discarding 100 (no error if not present):", discarded_set)
-print("-" * 190)
-
-# 6. Create an intersection of sets
-print("6. Intersection of set_a and set_b:", set_a.intersection(set_b))
-print("-" * 190)
-
-# 7. Create a union of sets
-print("7. Union of set_a and set_b:", set_a.union(set_b))
-print("-" * 190)
+# ✅ Key Difference Summary
+print("""
+map()    → Transforms each element (all elements included)
+filter() → Selects elements based on condition
+reduce() → Combines elements into a single result
+""")
