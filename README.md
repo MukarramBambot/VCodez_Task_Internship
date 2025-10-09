@@ -93,7 +93,6 @@ This repo will also serve as a **reference for my future projects and learning p
 16. [Task 16: Multiple & Multilevel Inheritance in Python (User Input Version)](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/task-16)  
 17. [Task 17: Arithmetic Operations Page using Tkinter](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/task-17)  
 
-Task 17 - 
 ---
 
 ## 📑 Assessments  
