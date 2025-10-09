@@ -90,7 +90,10 @@ This repo will also serve as a **reference for my future projects and learning p
     - Write a Python program to create a union of sets.
 14. [Task 14: File Handling in Python (r+, w+, a+)](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/task-14)  
 15. [Task 15: Difference between map, filter, and reduce (with real-time examples)](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/task-15)  
+16. [Task 16: Multiple & Multilevel Inheritance in Python (User Input Version)](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/task-16)  
+17. [Task 17: Arithmetic Operations Page using Tkinter](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/task-17)  
 
+Task 17 - 
 ---
 
 ## 📑 Assessments  
@@ -99,6 +102,7 @@ This repo will also serve as a **reference for my future projects and learning p
 2. Assessment 02: JavaScript Q & A  
 3. Assessment 03: ReactJS  
 4. Assessment 04: Python Q & A Part 1  
+5. Assessment 05: MySQL Q&A
 
 ---
 
