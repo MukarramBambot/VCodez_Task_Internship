@@ -88,10 +88,12 @@ This repo will also serve as a **reference for my future projects and learning p
     - Write a Python program to remove an item from a set if it is present in the set.
     - Write a Python program to create an intersection of sets.
     - Write a Python program to create a union of sets.
-14. [Task 14: File Handling in Python (r+, w+, a+)](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/task-14)  
-15. [Task 15: Difference between map, filter, and reduce (with real-time examples)](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/task-15)  
-16. [Task 16: Multiple & Multilevel Inheritance in Python (User Input Version)](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/task-16)  
-17. [Task 17: Arithmetic Operations Page using Tkinter](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/task-17)  
+14. [Task 14: File Handling in Python (r+, w+, a+)](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-14)  
+15. [Task 15: Difference between map, filter, and reduce (with real-time examples)](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-15)  
+16. [Task 16: Multiple & Multilevel Inheritance in Python (User Input Version)](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-16)  
+17. [Task 17: Arithmetic Operations Page using Tkinter](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-17)  
+18. [Task 18: Creating an "Traffic Light Simulator" using tkinter in python program](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-18)  
+19. [Task 19: Creating an Tkinter + MySQL Employee Database app](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-19)  
 
 ---
 
