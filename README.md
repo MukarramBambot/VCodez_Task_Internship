@@ -105,6 +105,37 @@ This repo will also serve as a **reference for my future projects and learning p
 4. Assessment 04: Python Q & A Part 1  
 5. Assessment 05: MySQL Q&A
 
+## 📦 Real-Time Project (Assigned by Company)
+
+AluOptimize – Industrial Optimization Platform
+
+AluOptimize is a real-time industrial optimization platform developed for the aluminum manufacturing sector. It applies predictive modelling and reinforcement-learning-inspired logic to analyze production parameters, forecast results, and reduce waste in the production cycle.
+
+🔍 Why It Was Built
+
+The aluminum production process is highly energy-intensive and prone to inefficiencies. Traditional systems only respond after an issue occurs.
+AluOptimize was built to provide proactive insights—predicting issues before they happen.
+
+⚙️ Problems It Solves
+
+Energy Inefficiency → Suggests optimal parameter adjustments to reduce power usage.
+
+Production Waste → Predicts waste and recommends recycling/repurposing options.
+
+Quality Variability → Forecasts expected output quality from given inputs.
+
+Data Silos → Stores and manages unified production-related data for all user roles.
+
+🏭 Real-World Use Cases
+
+Plant Operators: Simulate production runs before committing resources.
+
+Sustainability Managers: Track waste and follow AI-driven recycling recommendations.
+
+Process Engineers: Analyze historical parameters to optimize feed rates, temperatures, and bath ratios.
+
+GitHub Repo: https://github.com/MukarramBambot/AluOptimize
+
 ---
 
 ## 🔗 About This Repository  
