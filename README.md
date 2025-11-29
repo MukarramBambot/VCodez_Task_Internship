@@ -1,46 +1,80 @@
-# VCodez Internship Tasks & Assessments  
+# 🧮 Task 09 – Python Program for Arithmetic Operations (Function Types)
 
-Welcome to my repository showcasing the work I have completed during my **Full Stack Developer (Python) Internship at VCodez**.  
-This repo acts as a portfolio of my journey, documenting the various tasks and assessments assigned throughout the internship.  
-
----
-
-## 👨‍💻 About Me    
-
-- **Name:** Mukarram T. Bambot  
-- **Role:** Full Stack Developer (Python) Intern  
-- **Internship Mode:** On-Site, Chennai  
-- **Goal:** To strengthen my foundations in **web development, JavaScript, Python programming, and problem-solving**, while also building a portfolio of practical projects.  
-
-🔗 **Connect with me:**  
-- [LinkedIn](https://www.linkedin.com/in/mukarrambambot)  
-- [Portfolio](https://mukarrambambotporfolio.netlify.app/)  
-- 📧 Email: [mukbambot118@gmail.com](mailto:mukbambot118@gmail.com)  
- 
----
-
-## 📂 About This Repository  
-
-This repository contains **all internship tasks and assessments**, separated into branches for clean organization.  
-- Each **task** has its own branch with code implementation.  
-- Each **assessment** highlights my understanding of the topic through coding and Q&A formats.  
-- Topics covered span **HTML, CSS, JavaScript, Python, ReactJS**, and problem-solving exercises.  
-
-This repo will also serve as a **reference for my future projects and learning path in full-stack development and game development**.  
+This task is part of my **Full Stack Developer (Python) Internship at VCodez**.  
+Task 09 focuses on understanding **four types of Python functions** while performing basic arithmetic operations like subtraction, multiplication, division, and modulus.
 
 ---
 
-## 🚀 Skills Practiced in Internship  
+## 🎯 Objective
 
-- **Frontend:** HTML, CSS, JavaScript, ReactJS  
-- **Backend / Programming:** Python (functions, conditionals, real-time examples, string methods, patterns)  
-- **Version Control:** Git & GitHub (branching, commits, project organization)  
-- **Problem Solving:** Writing clean, simple, and modular code for real-world scenarios  
+To write arithmetic programs in Python using all **four function prototypes**:
+
+1. **Without Argument & Without Return Type**  
+2. **With Argument & Without Return Type**  
+3. **Without Argument & With Return Type**  
+4. **With Argument & With Return Type**
+
+---
+
+## 🧠 What I Learned
+
+✔ How Python functions accept inputs  
+✔ How functions return outputs  
+✔ User-input handling using `input()`  
+✔ Performing arithmetic operations  
+✔ Writing modular and reusable functions  
+
+---
+
+## 🧩 Function Breakdown
+
+### **1️⃣ Subtraction – No Argument, No Return Type**
+- Function reads values using `input()`
+- Prints the result directly
+
+### **2️⃣ Multiplication – With Argument, No Return Type**
+- Values are passed as arguments
+- Output is printed inside the function
+
+### **3️⃣ Division – No Argument, With Return Type**
+- Reads values using `input()`
+- Returns the final value to be printed outside
+
+### **4️⃣ Modulus – With Argument, With Return Type**
+- Accepts parameters and returns the value
+- Final result printed after function call
+
+---
+
+## 📂 File Included
+
+### ✔️ `Sample.py`
+Contains all four function types with real-time user input.
+
+Operations included:
+- Subtraction  
+- Multiplication  
+- Division  
+- Modulus  
+
+Each section is separated using visual separators (`*****`) for easy readability.
+
+---
+
+## 🖥️ Features Demonstrated
+
+- ✔ Four types of Python functions  
+- ✔ Input and output handling  
+- ✔ Returning vs printing values  
+- ✔ Clean and structured coding  
 
 ---
 
 ## 📌 Internship Tasks  
 
+## 📌 Internship Tasks  
+0. **Main Repo Overview**  
+   🔗 https://github.com/MukarramBambot/VCodez_Task_Internship.git  
 1. [Task 01: Basic HTML Structure](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
 2. [Task 02: Invoice Table Layout using HTML](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
 3. [Task 03: Table Styling with CSS](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-3)  
