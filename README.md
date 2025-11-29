@@ -63,8 +63,7 @@ Provides styling for:
 ---
 
 ## 📌 Internship Tasks  
-
-## 📌 Internship Tasks  
+ 
 0. **Main Repo Overview**  
    🔗 https://github.com/MukarramBambot/VCodez_Task_Internship.git  
 1. [Task 01: Basic HTML Structure](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
