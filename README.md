@@ -1,46 +1,99 @@
-# VCodez Internship Tasks & Assessments  
+# 🧮 Task 10 – Python Real-Time Examples (Elif & Nested If)
 
-Welcome to my repository showcasing the work I have completed during my **Full Stack Developer (Python) Internship at VCodez**.  
-This repo acts as a portfolio of my journey, documenting the various tasks and assessments assigned throughout the internship.  
+This task is part of my **Full Stack Developer (Python) Internship at VCodez**.  
+Task 10 focuses on implementing **real-time decision-making programs** using:
 
----
+- `elif` statements  
+- Nested `if` statements  
 
-## 👨‍💻 About Me    
-
-- **Name:** Mukarram T. Bambot  
-- **Role:** Full Stack Developer (Python) Intern  
-- **Internship Mode:** On-Site, Chennai  
-- **Goal:** To strengthen my foundations in **web development, JavaScript, Python programming, and problem-solving**, while also building a portfolio of practical projects.  
-
-🔗 **Connect with me:**  
-- [LinkedIn](https://www.linkedin.com/in/mukarrambambot)  
-- [Portfolio](https://mukarrambambotporfolio.netlify.app/)  
-- 📧 Email: [mukbambot118@gmail.com](mailto:mukbambot118@gmail.com)  
- 
----
-
-## 📂 About This Repository  
-
-This repository contains **all internship tasks and assessments**, separated into branches for clean organization.  
-- Each **task** has its own branch with code implementation.  
-- Each **assessment** highlights my understanding of the topic through coding and Q&A formats.  
-- Topics covered span **HTML, CSS, JavaScript, Python, ReactJS**, and problem-solving exercises.  
-
-This repo will also serve as a **reference for my future projects and learning path in full-stack development and game development**.  
+These examples simulate real-world logic such as **grading systems** and **ATM withdrawal rules**.
 
 ---
 
-## 🚀 Skills Practiced in Internship  
+## 🎯 Objective
 
-- **Frontend:** HTML, CSS, JavaScript, ReactJS  
-- **Backend / Programming:** Python (functions, conditionals, real-time examples, string methods, patterns)  
-- **Version Control:** Git & GitHub (branching, commits, project organization)  
-- **Problem Solving:** Writing clean, simple, and modular code for real-world scenarios  
+To write Python programs that:
+
+- Use conditional decision-making (`if`, `elif`, `else`)
+- Implement nested conditional checks
+- Mimic real-world scenarios requiring multiple conditions
+- Handle user inputs effectively  
+
+---
+
+## 🧠 What I Learned
+
+✔ Real-time decision making using conditional statements  
+✔ How `elif` helps simplify multiple conditions  
+✔ How nested `if` helps validate multiple constraints  
+✔ User input handling using `input()`  
+✔ Printing meaningful and structured outputs  
+
+---
+
+## 🧩 Program Sections
+
+### **1️⃣ Grading System (using `elif`)**
+A student enters marks (0–100), and the program prints the grade:
+
+| Marks Range | Grade | Meaning |
+|-------------|--------|---------|
+| 90+         | A+     | Excellent |
+| 75–89       | A      | Very Good |
+| 60–74       | B      | Good |
+| 45–59       | C      | Needs Improvement |
+| Below 45    | Fail   | Try Again |
+
+This teaches:
+- Ordered conditions  
+- Multiple comparisons  
+- A realistic grading model  
+
+---
+
+### **2️⃣ ATM Withdrawal System (Nested If Example)**
+
+Simulates an ATM machine with:
+
+- **Initial balance:** ₹5000  
+- Withdrawal only allowed if:
+  - Amount ≤ balance  
+  - Amount is a multiple of ₹100  
+
+This program demonstrates:
+- Nested decision making  
+- Validating multiple conditions  
+- Updating balance  
+- Real-time transaction flow  
+
+---
+
+## 📂 File Included
+
+### ✔️ `Sample.py`
+Contains both programs:
+
+- **Grading System using `elif`**
+- **ATM Withdrawal using Nested `if`**
+
+Each block is clearly separated with printed separators for readability.
+
+---
+
+## 🖥️ Features Demonstrated
+
+- ✔ Real-world logic implementation  
+- ✔ Clean decision trees  
+- ✔ Input validation  
+- ✔ Error handling concepts  
+- ✔ Python condition optimization  
 
 ---
 
 ## 📌 Internship Tasks  
 
+0. **Main Repo Overview**  
+   🔗 https://github.com/MukarramBambot/VCodez_Task_Internship.git  
 1. [Task 01: Basic HTML Structure](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
 2. [Task 02: Invoice Table Layout using HTML](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
 3. [Task 03: Table Styling with CSS](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-3)  
