@@ -1,46 +1,77 @@
-# VCodez Internship Tasks & Assessments  
+# 📘 Task 14 – File Handling in Python (r+, w+, a+)
 
-Welcome to my repository showcasing the work I have completed during my **Full Stack Developer (Python) Internship at VCodez**.  
-This repo acts as a portfolio of my journey, documenting the various tasks and assessments assigned throughout the internship.  
-
----
-
-## 👨‍💻 About Me    
-
-- **Name:** Mukarram T. Bambot  
-- **Role:** Full Stack Developer (Python) Intern  
-- **Internship Mode:** On-Site, Chennai  
-- **Goal:** To strengthen my foundations in **web development, JavaScript, Python programming, and problem-solving**, while also building a portfolio of practical projects.  
-
-🔗 **Connect with me:**  
-- [LinkedIn](https://www.linkedin.com/in/mukarrambambot)  
-- [Portfolio](https://mukarrambambotporfolio.netlify.app/)  
-- 📧 Email: [mukbambot118@gmail.com](mailto:mukbambot118@gmail.com)  
- 
----
-
-## 📂 About This Repository  
-
-This repository contains **all internship tasks and assessments**, separated into branches for clean organization.  
-- Each **task** has its own branch with code implementation.  
-- Each **assessment** highlights my understanding of the topic through coding and Q&A formats.  
-- Topics covered span **HTML, CSS, JavaScript, Python, ReactJS**, and problem-solving exercises.  
-
-This repo will also serve as a **reference for my future projects and learning path in full-stack development and game development**.  
+This task demonstrates how to work with different **file modes** in Python using a real example called **Student Notes Manager**.  
+The goal is to understand how files can be created, updated, overwritten, or appended without losing data.
 
 ---
 
-## 🚀 Skills Practiced in Internship  
+## 1️⃣ Using **w+ Mode** – Create or Overwrite File
 
-- **Frontend:** HTML, CSS, JavaScript, ReactJS  
-- **Backend / Programming:** Python (functions, conditionals, real-time examples, string methods, patterns)  
-- **Version Control:** Git & GitHub (branching, commits, project organization)  
-- **Problem Solving:** Writing clean, simple, and modular code for real-world scenarios  
+`w+` allows you to **write and read** a file.  
+If the file does not exist → it will be created.  
+If it already exists → it will be **overwritten completely**.
+
+### ✔️ Actions Performed
+- Create a file named `student_notes.txt`
+- Write basic student details  
+- Move cursor to start using `seek(0)`
+- Read the newly created file
+
+### ✔️ Learned
+- `w+` truncates (clears) the file before writing  
+- Cursor control using `seek()`  
+- Read + write operations in one mode  
+
+---
+
+## 2️⃣ Using **r+ Mode** – Read & Update File
+
+`r+` is used to **read and modify an existing file**.
+
+### ✔️ Actions Performed
+- Read file content  
+- Move cursor to beginning  
+- Update first line (student name)  
+- Read updated content  
+
+### ✔️ Learned
+- `r+` requires the file to **already exist**  
+- Does NOT erase file  
+- Useful for partial updates  
+
+---
+
+## 3️⃣ Using **a+ Mode** – Append Without Losing Data
+
+`a+` allows **reading and appending** to the file.
+
+### ✔️ Actions Performed
+- Add new remark at the end of the file  
+- Use `seek(0)` to read entire updated file  
+
+### ✔️ Learned
+- `a+` never deletes or overrides data  
+- Always writes at the **end of the file**  
+- Can be used for logs, notes, history records  
+
+---
+
+## 📂 File Included
+
+### 📝 Sample.py  
+Contains complete demonstration of:
+- Creating a file  
+- Overwriting file content  
+- Updating existing data  
+- Appending new data  
+- Reading file using cursor control  
 
 ---
 
 ## 📌 Internship Tasks  
 
+0. **Main Repo Overview**  
+   🔗 https://github.com/MukarramBambot/VCodez_Task_Internship.git  
 1. [Task 01: Basic HTML Structure](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
 2. [Task 02: Invoice Table Layout using HTML](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
 3. [Task 03: Table Styling with CSS](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-3)  
