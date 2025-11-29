@@ -1,46 +1,95 @@
-# VCodez Internship Tasks & Assessments  
+# 🚦 Task 18 – Traffic Light Simulator using Tkinter
 
-Welcome to my repository showcasing the work I have completed during my **Full Stack Developer (Python) Internship at VCodez**.  
-This repo acts as a portfolio of my journey, documenting the various tasks and assessments assigned throughout the internship.  
-
----
-
-## 👨‍💻 About Me    
-
-- **Name:** Mukarram T. Bambot  
-- **Role:** Full Stack Developer (Python) Intern  
-- **Internship Mode:** On-Site, Chennai  
-- **Goal:** To strengthen my foundations in **web development, JavaScript, Python programming, and problem-solving**, while also building a portfolio of practical projects.  
-
-🔗 **Connect with me:**  
-- [LinkedIn](https://www.linkedin.com/in/mukarrambambot)  
-- [Portfolio](https://mukarrambambotporfolio.netlify.app/)  
-- 📧 Email: [mukbambot118@gmail.com](mailto:mukbambot118@gmail.com)  
- 
----
-
-## 📂 About This Repository  
-
-This repository contains **all internship tasks and assessments**, separated into branches for clean organization.  
-- Each **task** has its own branch with code implementation.  
-- Each **assessment** highlights my understanding of the topic through coding and Q&A formats.  
-- Topics covered span **HTML, CSS, JavaScript, Python, ReactJS**, and problem-solving exercises.  
-
-This repo will also serve as a **reference for my future projects and learning path in full-stack development and game development**.  
+This task focuses on building a **fully functional Traffic Light Simulation** using **Tkinter**, multithreading, and timed color transitions.  
+It visually represents a 4-way intersection with animated signal changes.
 
 ---
 
-## 🚀 Skills Practiced in Internship  
+## 1️⃣ Objective
+To create an interactive traffic signal system with:
 
-- **Frontend:** HTML, CSS, JavaScript, ReactJS  
-- **Backend / Programming:** Python (functions, conditionals, real-time examples, string methods, patterns)  
-- **Version Control:** Git & GitHub (branching, commits, project organization)  
-- **Problem Solving:** Writing clean, simple, and modular code for real-world scenarios  
+- Four-way intersection (North, South, East, West)
+- Red, Yellow, Green lights for each direction
+- Automatic light cycle with timing
+- Start/Stop controls
+- Animated UI using Canvas
+- Multithreading for smooth transitions
+
+---
+
+## 2️⃣ Features Implemented
+
+### ✔️ Realistic Traffic Signal System  
+Each direction has:
+- Red light  
+- Yellow light  
+- Green light  
+
+Two opposite directions turn green together (e.g., North–South).
+
+---
+
+### ✔️ Start & Stop Controls  
+- **Start Button:** Begins the traffic cycle  
+- **Stop Button:** Halts the simulation instantly  
+- Status label shows _Running_ or _Stopped_
+
+---
+
+### ✔️ Multithreading  
+The simulation runs on a separate thread so the UI stays responsive.
+
+---
+
+### ✔️ Dynamic Canvas-Based UI  
+Includes:
+- Intersection roads  
+- Lane markers  
+- Traffic light boxes  
+- Direction arrows  
+- Automatic resizing using `bind("<Configure>")`
+
+---
+
+### ✔️ Light Timing Logic  
+Each direction follows:
+
+1. **Green** → 3 seconds  
+2. **Yellow** → 1 second  
+3. **Red** → 0.5 seconds  
+
+Cycle loops continuously while running.
+
+---
+
+## 🧠 Concepts Learned
+
+- Tkinter `Canvas` drawing  
+- Threading with Daemon threads  
+- Updating UI with `update_idletasks()`  
+- Event handling (`Start`, `Stop`)  
+- Managing state in real-time simulations  
+- Animating shapes by changing fill colors
+
+---
+
+## 📂 File Included
+
+### 📝 traffic_light_simulator.py
+Contains:
+- Tkinter window setup  
+- Canvas rendering (roads, signals, arrows)  
+- Traffic light drawing & color switching  
+- Threaded simulation loop  
+- Resize event handler  
+- Button controls and UI updates  
 
 ---
 
 ## 📌 Internship Tasks  
 
+0. **Main Repo Overview**  
+   🔗 https://github.com/MukarramBambot/VCodez_Task_Internship.git  
 1. [Task 01: Basic HTML Structure](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
 2. [Task 02: Invoice Table Layout using HTML](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
 3. [Task 03: Table Styling with CSS](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-3)  
