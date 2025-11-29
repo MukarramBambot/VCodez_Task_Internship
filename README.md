@@ -1,46 +1,69 @@
-# VCodez Internship Tasks & Assessments  
+# 📘 Task 12 – List & Tuple Operations (Python)
 
-Welcome to my repository showcasing the work I have completed during my **Full Stack Developer (Python) Internship at VCodez**.  
-This repo acts as a portfolio of my journey, documenting the various tasks and assessments assigned throughout the internship.  
-
----
-
-## 👨‍💻 About Me    
-
-- **Name:** Mukarram T. Bambot  
-- **Role:** Full Stack Developer (Python) Intern  
-- **Internship Mode:** On-Site, Chennai  
-- **Goal:** To strengthen my foundations in **web development, JavaScript, Python programming, and problem-solving**, while also building a portfolio of practical projects.  
-
-🔗 **Connect with me:**  
-- [LinkedIn](https://www.linkedin.com/in/mukarrambambot)  
-- [Portfolio](https://mukarrambambotporfolio.netlify.app/)  
-- 📧 Email: [mukbambot118@gmail.com](mailto:mukbambot118@gmail.com)  
- 
----
-
-## 📂 About This Repository  
-
-This repository contains **all internship tasks and assessments**, separated into branches for clean organization.  
-- Each **task** has its own branch with code implementation.  
-- Each **assessment** highlights my understanding of the topic through coding and Q&A formats.  
-- Topics covered span **HTML, CSS, JavaScript, Python, ReactJS**, and problem-solving exercises.  
-
-This repo will also serve as a **reference for my future projects and learning path in full-stack development and game development**.  
+This task covers various operations in **Lists** and **Tuples** using Python.  
+It includes mathematical operations, data manipulation, indexing, unpacking, and handling duplicates.
 
 ---
 
-## 🚀 Skills Practiced in Internship  
+## 1️⃣ List Operations
 
-- **Frontend:** HTML, CSS, JavaScript, ReactJS  
-- **Backend / Programming:** Python (functions, conditionals, real-time examples, string methods, patterns)  
-- **Version Control:** Git & GitHub (branching, commits, project organization)  
-- **Problem Solving:** Writing clean, simple, and modular code for real-world scenarios  
+All operations are done using the following list:
+
+[10, 20, 30, 40, 20, 10, 50]
+
+### ✔️ Covered List Tasks  
+### 2️⃣ Sum of all items  
+### 3️⃣ Multiply all items  
+### 4️⃣ Find the largest number  
+### 5️⃣ Find the smallest number  
+### 6️⃣ Remove duplicate values  
+### 7️⃣ Check whether the list is empty or not  
+
+### 🧠 Concepts Learned
+- Using built-in functions: `sum()`, `max()`, `min()`
+- Using loops for multiplication
+- Converting list → set → list to remove duplicates
+- Truth-value testing for checking empty list
 
 ---
+
+## 8️⃣ Tuple Operations
+
+All tuple tasks are performed on:
+
+(10, 20, 30, 40, 50, 20, "Hello", 3.14, True, 40)
+
+### ✔️ Covered Tuple Tasks  
+### 9️⃣ Create a tuple with different data types  
+### 🔟 Print a specific element (3rd element)  
+### 1️⃣1️⃣ Unpack tuple values into variables  
+### 1️⃣2️⃣ Add an item to a tuple (tuple → list → modify → tuple)  
+### 1️⃣3️⃣ Get 5th element & 5th element from the end  
+### 1️⃣4️⃣ Find all repeated elements  
+
+### 🧠 Concepts Learned
+- Tuple immutability
+- Indexing & negative indexing
+- Unpacking multiple values
+- Converting between list and tuple
+- Detecting repeated values using `count()`
+
+---
+
+## 📂 File Included
+
+### 📝 Sample.py
+Includes:
+- List operations  
+- Tuple operations  
+- Mathematical operations  
+- Duplicate detection  
+- Indexing and unpacking  
 
 ## 📌 Internship Tasks  
 
+0. **Main Repo Overview**  
+   🔗 https://github.com/MukarramBambot/VCodez_Task_Internship.git  
 1. [Task 01: Basic HTML Structure](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
 2. [Task 02: Invoice Table Layout using HTML](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
 3. [Task 03: Table Styling with CSS](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-3)  
