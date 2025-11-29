@@ -1,46 +1,83 @@
-# VCodez Internship Tasks & Assessments  
+# 📘 Task 15 – Difference Between map(), filter(), and reduce() (Python)
 
-Welcome to my repository showcasing the work I have completed during my **Full Stack Developer (Python) Internship at VCodez**.  
-This repo acts as a portfolio of my journey, documenting the various tasks and assessments assigned throughout the internship.  
-
----
-
-## 👨‍💻 About Me    
-
-- **Name:** Mukarram T. Bambot  
-- **Role:** Full Stack Developer (Python) Intern  
-- **Internship Mode:** On-Site, Chennai  
-- **Goal:** To strengthen my foundations in **web development, JavaScript, Python programming, and problem-solving**, while also building a portfolio of practical projects.  
-
-🔗 **Connect with me:**  
-- [LinkedIn](https://www.linkedin.com/in/mukarrambambot)  
-- [Portfolio](https://mukarrambambotporfolio.netlify.app/)  
-- 📧 Email: [mukbambot118@gmail.com](mailto:mukbambot118@gmail.com)  
- 
----
-
-## 📂 About This Repository  
-
-This repository contains **all internship tasks and assessments**, separated into branches for clean organization.  
-- Each **task** has its own branch with code implementation.  
-- Each **assessment** highlights my understanding of the topic through coding and Q&A formats.  
-- Topics covered span **HTML, CSS, JavaScript, Python, ReactJS**, and problem-solving exercises.  
-
-This repo will also serve as a **reference for my future projects and learning path in full-stack development and game development**.  
+This task explains the difference between **map**, **filter**, and **reduce** using a real-world example from **online shopping**.  
+Each function processes a list of prices and performs a different type of transformation.
 
 ---
 
-## 🚀 Skills Practiced in Internship  
+## 1️⃣ map() – Apply a Function to Every Element  
 
-- **Frontend:** HTML, CSS, JavaScript, ReactJS  
-- **Backend / Programming:** Python (functions, conditionals, real-time examples, string methods, patterns)  
-- **Version Control:** Git & GitHub (branching, commits, project organization)  
-- **Problem Solving:** Writing clean, simple, and modular code for real-world scenarios  
+`map()` is used to **transform** each item in an iterable.
+
+### ✔️ Real-Time Example: Add 10% GST to Every Product  
+Input List:  
+`[250, 450, 120, 999, 75, 300]`
+
+- Adds 10% GST to all prices  
+- Returns a list of updated prices  
+
+### 🧠 Learned  
+- `map()` always returns the **same number of elements**  
+- Used when you want to modify or transform each item  
+
+---
+
+## 2️⃣ filter() – Select Elements Based on a Condition  
+
+`filter()` is used to **pick only certain items** from a list.
+
+### ✔️ Real-Time Example: Find Premium Products Above ₹300
+
+- Checks each price  
+- Returns only items that match the condition  
+
+### 🧠 Learned  
+- Output may be **smaller** than input  
+- Used for conditional selection  
+
+---
+
+## 3️⃣ reduce() – Reduce All Elements Into One Value  
+
+`reduce()` (from `functools`) combines all items into a **single result**.
+
+### ✔️ Real-Time Example: Calculate Total Cart Amount  
+
+- Repeatedly adds prices  
+- Returns final total  
+
+### 🧠 Learned  
+- reduce() always outputs **one value**  
+- Used for totals, averages, cumulative operations  
+
+---
+
+## 🔑 Summary: map vs filter vs reduce
+
+| Function | Purpose | Output Size | Use Case |
+|---------|----------|-------------|----------|
+| **map()** | Transform each element | Same as input | Apply GST, convert values |
+| **filter()** | Keep only elements that meet condition | Smaller or equal | Find premium items, filter data |
+| **reduce()** | Combine all elements into one output | Always 1 | Total price, sum, product |
+
+---
+
+## 📂 File Included
+
+### 📝 Sample.py  
+Contains:
+- Example list of product prices  
+- map() for GST calculation  
+- filter() for selecting premium products  
+- reduce() for total cart value  
+- Summary explanation printed at the end  
 
 ---
 
 ## 📌 Internship Tasks  
 
+0. **Main Repo Overview**  
+   🔗 https://github.com/MukarramBambot/VCodez_Task_Internship.git  
 1. [Task 01: Basic HTML Structure](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
 2. [Task 02: Invoice Table Layout using HTML](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
 3. [Task 03: Table Styling with CSS](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-3)  
