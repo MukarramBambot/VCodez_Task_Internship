@@ -1,46 +1,91 @@
-# VCodez Internship Tasks & Assessments  
+# 📘 Task 13 – Set Programs in Python
 
-Welcome to my repository showcasing the work I have completed during my **Full Stack Developer (Python) Internship at VCodez**.  
-This repo acts as a portfolio of my journey, documenting the various tasks and assessments assigned throughout the internship.  
-
----
-
-## 👨‍💻 About Me    
-
-- **Name:** Mukarram T. Bambot  
-- **Role:** Full Stack Developer (Python) Intern  
-- **Internship Mode:** On-Site, Chennai  
-- **Goal:** To strengthen my foundations in **web development, JavaScript, Python programming, and problem-solving**, while also building a portfolio of practical projects.  
-
-🔗 **Connect with me:**  
-- [LinkedIn](https://www.linkedin.com/in/mukarrambambot)  
-- [Portfolio](https://mukarrambambotporfolio.netlify.app/)  
-- 📧 Email: [mukbambot118@gmail.com](mailto:mukbambot118@gmail.com)  
- 
----
-
-## 📂 About This Repository  
-
-This repository contains **all internship tasks and assessments**, separated into branches for clean organization.  
-- Each **task** has its own branch with code implementation.  
-- Each **assessment** highlights my understanding of the topic through coding and Q&A formats.  
-- Topics covered span **HTML, CSS, JavaScript, Python, ReactJS**, and problem-solving exercises.  
-
-This repo will also serve as a **reference for my future projects and learning path in full-stack development and game development**.  
+This task focuses on working with **Python Sets**, including creation, iteration, modification, and performing mathematical set operations such as **union** and **intersection**.
 
 ---
 
-## 🚀 Skills Practiced in Internship  
+## 1️⃣ Create a Set  
+The task begins by defining sets and printing their values to understand how sets store **unique unordered elements**.
 
-- **Frontend:** HTML, CSS, JavaScript, ReactJS  
-- **Backend / Programming:** Python (functions, conditionals, real-time examples, string methods, patterns)  
-- **Version Control:** Git & GitHub (branching, commits, project organization)  
-- **Problem Solving:** Writing clean, simple, and modular code for real-world scenarios  
+### ✔️ Learned:
+- How sets automatically remove duplicate values  
+- How to declare sets using `{ }`
+
+---
+
+## 2️⃣ Iterate Over a Set  
+Using a simple loop to access each element inside a set.
+
+### ✔️ Learned:
+- Sets are unordered, so output order may vary  
+- Use `for item in my_set:` for iteration
+
+---
+
+## 3️⃣ Add Elements to a Set  
+Demonstrates how to add new elements using `.add()`.
+
+### ✔️ Learned:
+- `.add()` inserts new unique elements  
+- Does not allow duplicates  
+- Useful for dynamic data manipulation
+
+---
+
+## 4️⃣ Remove an Item from a Set  
+Removes a specific item using `.remove()`.
+
+### ✔️ Important Note:
+- `.remove()` throws an error if the element doesn’t exist
+
+---
+
+## 5️⃣ Remove an Item *Only If Present*  
+Uses `.discard()` to safely remove elements.
+
+### ✔️ Learned:
+- `.discard()` will **not** cause an error if the item is missing  
+- Safer alternative to `.remove()`
+
+---
+
+## 6️⃣ Intersection of Sets  
+Performs:  
+set_a ∩ set_b
+
+### ✔️ Learned:
+- Intersection returns only elements present in **both** sets  
+- Uses `.intersection()` method
+
+---
+
+## 7️⃣ Union of Sets  
+Performs:  
+set_a ∪ set_b
+
+### ✔️ Learned:
+- Union combines elements from both sets  
+- Removes duplicates automatically  
+- Uses `.union()` method
+
+---
+
+## 📂 File Included
+
+### 📝 Sample.py  
+Contains implementation for:  
+- Creating sets  
+- Iterating through sets  
+- Adding & removing elements  
+- Using `.remove()` vs `.discard()`  
+- Performing union & intersection operations  
 
 ---
 
 ## 📌 Internship Tasks  
 
+0. **Main Repo Overview**  
+   🔗 https://github.com/MukarramBambot/VCodez_Task_Internship.git  
 1. [Task 01: Basic HTML Structure](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
 2. [Task 02: Invoice Table Layout using HTML](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
 3. [Task 03: Table Styling with CSS](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-3)  
