@@ -1,46 +1,73 @@
-# VCodez Internship Tasks & Assessments  
+# 🎨 Task 04 & Task 05 – Radial Gradient + Image Filters (CSS)
 
-Welcome to my repository showcasing the work I have completed during my **Full Stack Developer (Python) Internship at VCodez**.  
-This repo acts as a portfolio of my journey, documenting the various tasks and assessments assigned throughout the internship.  
-
----
-
-## 👨‍💻 About Me    
-
-- **Name:** Mukarram T. Bambot  
-- **Role:** Full Stack Developer (Python) Intern  
-- **Internship Mode:** On-Site, Chennai  
-- **Goal:** To strengthen my foundations in **web development, JavaScript, Python programming, and problem-solving**, while also building a portfolio of practical projects.  
-
-🔗 **Connect with me:**  
-- [LinkedIn](https://www.linkedin.com/in/mukarrambambot)  
-- [Portfolio](https://mukarrambambotporfolio.netlify.app/)  
-- 📧 Email: [mukbambot118@gmail.com](mailto:mukbambot118@gmail.com)  
- 
----
-
-## 📂 About This Repository  
-
-This repository contains **all internship tasks and assessments**, separated into branches for clean organization.  
-- Each **task** has its own branch with code implementation.  
-- Each **assessment** highlights my understanding of the topic through coding and Q&A formats.  
-- Topics covered span **HTML, CSS, JavaScript, Python, ReactJS**, and problem-solving exercises.  
-
-This repo will also serve as a **reference for my future projects and learning path in full-stack development and game development**.  
+This branch contains the work completed for **Task 04** and **Task 05** of my Full Stack Developer (Python) Internship at VCodez.  
+These tasks helped me learn **CSS gradients**, **image filters**, and modern styling techniques used in web design.
 
 ---
 
-## 🚀 Skills Practiced in Internship  
+## 🌈 Task 04 – Creating a Radial Gradient in CSS
 
-- **Frontend:** HTML, CSS, JavaScript, ReactJS  
-- **Backend / Programming:** Python (functions, conditionals, real-time examples, string methods, patterns)  
-- **Version Control:** Git & GitHub (branching, commits, project organization)  
-- **Problem Solving:** Writing clean, simple, and modular code for real-world scenarios  
+### 🎯 Objective  
+To create a **radial gradient background** using CSS, demonstrating color transitions from the center outward.
+
+### 🧠 What I Learned  
+✔ How CSS gradients work (`radial-gradient`)  
+✔ How to create multi-color transitions  
+✔ How to style containers with borders & layout spacing  
+✔ Visual design concepts like blending, shadows, and depth  
+
+### 🖼️ Output Highlights  
+The gradient moves from:
+- White ➜  
+- Light Yellow ➜  
+- Orange ➜  
+- Brown ➜  
+- Black  
+
+Representing a layered glowing effect.
+
+---
+
+## 🖼️ Task 05 – Applying Image Filters in CSS
+
+### 🎯 Objective  
+To apply different **CSS image filters** on the same image and display them in a clean grid layout.
+
+### ✨ Filters Implemented  
+1. **Blur**  
+2. **Brightness**  
+3. **Contrast**  
+4. **Drop Shadow**  
+5. **Grayscale**  
+6. **Hue Rotate**  
+7. **Invert**  
+
+### 🧠 What I Learned  
+✔ How to apply CSS filter properties  
+✔ How to use `grid` layout for arranging images  
+✔ How visual manipulation affects UI design  
+✔ How each filter transforms an image differently  
+
+### 📂 Files Included  
+#### ✔️ *index.html*  
+Contains:  
+- Radial gradient section  
+- Image filter demo  
+- Grid-based layout  
+
+#### ✔️ *index.css*  
+Defines:  
+- Gradient styling  
+- Filter classes  
+- Grid layout for filter gallery  
+- Component spacing & UI structure  
 
 ---
 
 ## 📌 Internship Tasks  
 
+0. **Main Repo Overview**  
+   🔗 https://github.com/MukarramBambot/VCodez_Task_Internship.git  
 1. [Task 01: Basic HTML Structure](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
 2. [Task 02: Invoice Table Layout using HTML](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
 3. [Task 03: Table Styling with CSS](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-3)  
