@@ -40,7 +40,8 @@ This repo will also serve as a **reference for my future projects and learning p
 ---
 
 ## 📌 Internship Tasks  
-
+0. **Main Repo Overview**  
+   🔗 https://github.com/MukarramBambot/VCodez_Task_Internship.git  
 1. [Task 01: Basic HTML Structure](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
 2. [Task 02: Invoice Table Layout using HTML](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
 3. [Task 03: Table Styling with CSS](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-3)  
