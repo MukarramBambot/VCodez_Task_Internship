@@ -1,46 +1,58 @@
-# VCodez Internship Tasks & Assessments  
+# 🎨 Task 03 – Table Styling with CSS (Color Grid Layout)
 
-Welcome to my repository showcasing the work I have completed during my **Full Stack Developer (Python) Internship at VCodez**.  
-This repo acts as a portfolio of my journey, documenting the various tasks and assessments assigned throughout the internship.  
+This branch contains the work completed for **Task 03** of my Full Stack Developer (Python) Internship at VCodez.  
+The goal of this task was to explore **CSS Grid**, **color palettes**, and **layout design** using HTML + CSS.
 
----
-
-## 👨‍💻 About Me    
-
-- **Name:** Mukarram T. Bambot  
-- **Role:** Full Stack Developer (Python) Intern  
-- **Internship Mode:** On-Site, Chennai  
-- **Goal:** To strengthen my foundations in **web development, JavaScript, Python programming, and problem-solving**, while also building a portfolio of practical projects.  
-
-🔗 **Connect with me:**  
-- [LinkedIn](https://www.linkedin.com/in/mukarrambambot)  
-- [Portfolio](https://mukarrambambotporfolio.netlify.app/)  
-- 📧 Email: [mukbambot118@gmail.com](mailto:mukbambot118@gmail.com)  
- 
----
-
-## 📂 About This Repository  
-
-This repository contains **all internship tasks and assessments**, separated into branches for clean organization.  
-- Each **task** has its own branch with code implementation.  
-- Each **assessment** highlights my understanding of the topic through coding and Q&A formats.  
-- Topics covered span **HTML, CSS, JavaScript, Python, ReactJS**, and problem-solving exercises.  
-
-This repo will also serve as a **reference for my future projects and learning path in full-stack development and game development**.  
+This task helped me understand how modern layout systems work and how to visually organize elements using CSS.
 
 ---
 
-## 🚀 Skills Practiced in Internship  
+## 🎯 Task Objective
 
-- **Frontend:** HTML, CSS, JavaScript, ReactJS  
-- **Backend / Programming:** Python (functions, conditionals, real-time examples, string methods, patterns)  
-- **Version Control:** Git & GitHub (branching, commits, project organization)  
-- **Problem Solving:** Writing clean, simple, and modular code for real-world scenarios  
+To create a **4×6 color grid table** using:
+- **CSS Grid Layout**
+- **Custom color palettes**
+- **Individual cell styling**
+- **Clean spacing and alignment**
+
+The grid displays **24 unique colors**, grouped into:
+- 🔵 Blue / Gray shades  
+- 🟢 Green shades  
+- 🟠 Yellow / Orange / Brown shades  
+- 🔴 Red shades  
 
 ---
 
+## 🧠 What I Learned
+
+✔ How to use **CSS Grid** for creating structured layouts  
+✔ How to define **rows & columns** precisely  
+✔ How to apply unique styles to each cell  
+✔ How to use clean spacing (`gap`) and borders  
+✔ How to create organized color palettes visually  
+
+---
+
+## 📂 Files Included
+
+### ✔️ **index.html**
+Contains:
+- The main grid container  
+- 24 `<div>` cells for the color table  
+- A simple structure styled entirely by CSS  
+
+### ✔️ **index.css**
+Defines:
+- The grid layout  
+- Cell sizes  
+- 24 unique background colors  
+- Subtle borders to create a clean MS-Paint-like effect  
+
+---
 ## 📌 Internship Tasks  
 
+0. **Main Repo Overview**  
+   🔗 https://github.com/MukarramBambot/VCodez_Task_Internship.git  
 1. [Task 01: Basic HTML Structure](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
 2. [Task 02: Invoice Table Layout using HTML](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
 3. [Task 03: Table Styling with CSS](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-3)  
@@ -94,22 +106,3 @@ This repo will also serve as a **reference for my future projects and learning p
 17. [Task 17: Arithmetic Operations Page using Tkinter](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-17)  
 18. [Task 18: Creating an "Traffic Light Simulator" using tkinter in python program](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-18)  
 19. [Task 19: Creating an Tkinter + MySQL Employee Database app](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-19)  
-
----
-
-## 📑 Assessments  
-
-1. Assessment 01: Event Website using HTML & CSS  
-2. Assessment 02: JavaScript Q & A  
-3. Assessment 03: ReactJS  
-4. Assessment 04: Python Q & A Part 1  
-5. Assessment 05: MySQL Q&A
-
----
-
-## 🔗 About This Repository  
-
-This repository is maintained as part of my internship at **VCodez** where I am working as a **Full Stack Developer (Python)**.  
-Each branch represents a separate task/assessment with the complete code and implementation details.  
-
----
