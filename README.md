@@ -1,46 +1,77 @@
-# VCodez Internship Tasks & Assessments  
+# 🍽️ Task 08 – Else-If Statement in JavaScript (Meal Suggestion App)
 
-Welcome to my repository showcasing the work I have completed during my **Full Stack Developer (Python) Internship at VCodez**.  
-This repo acts as a portfolio of my journey, documenting the various tasks and assessments assigned throughout the internship.  
-
----
-
-## 👨‍💻 About Me    
-
-- **Name:** Mukarram T. Bambot  
-- **Role:** Full Stack Developer (Python) Intern  
-- **Internship Mode:** On-Site, Chennai  
-- **Goal:** To strengthen my foundations in **web development, JavaScript, Python programming, and problem-solving**, while also building a portfolio of practical projects.  
-
-🔗 **Connect with me:**  
-- [LinkedIn](https://www.linkedin.com/in/mukarrambambot)  
-- [Portfolio](https://mukarrambambotporfolio.netlify.app/)  
-- 📧 Email: [mukbambot118@gmail.com](mailto:mukbambot118@gmail.com)  
- 
----
-
-## 📂 About This Repository  
-
-This repository contains **all internship tasks and assessments**, separated into branches for clean organization.  
-- Each **task** has its own branch with code implementation.  
-- Each **assessment** highlights my understanding of the topic through coding and Q&A formats.  
-- Topics covered span **HTML, CSS, JavaScript, Python, ReactJS**, and problem-solving exercises.  
-
-This repo will also serve as a **reference for my future projects and learning path in full-stack development and game development**.  
+This task is part of my **Full Stack Developer (Python) Internship at VCodez**.  
+Task 08 focuses on understanding **else-if conditional statements** in JavaScript by creating a dynamic meal-suggestion application based on the time of day.
 
 ---
 
-## 🚀 Skills Practiced in Internship  
+## 🎯 Objective
 
-- **Frontend:** HTML, CSS, JavaScript, ReactJS  
-- **Backend / Programming:** Python (functions, conditionals, real-time examples, string methods, patterns)  
-- **Version Control:** Git & GitHub (branching, commits, project organization)  
-- **Problem Solving:** Writing clean, simple, and modular code for real-world scenarios  
+To build a simple JavaScript program that:
+
+- Detects the time of day selected by the user  
+- Suggests an appropriate meal  
+- Uses **else-if** statements for multiple condition handling  
+- Updates the UI dynamically  
+
+---
+
+## 🧠 What I Learned
+
+✔ Using **else-if** conditional logic  
+✔ Handling dropdown (`<select>`) input  
+✔ DOM manipulation using JavaScript  
+✔ Creating interactive UI with CSS + JS  
+✔ Displaying results dynamically on the webpage  
+
+---
+
+## 📂 Files Included
+
+### ✔️ `index.html`
+Contains:
+- Page structure  
+- Dropdown to select "Morning / Afternoon / Evening / Other"  
+- Button to get suggestion  
+- Output message area  
+- Links to CSS & JS files  
+
+### ✔️ `script.js`
+Includes:
+- Event listener for button click  
+- Reading selected value from dropdown  
+- else-if logic:
+  - Morning → Pancakes  
+  - Afternoon → Salad  
+  - Evening → Pasta  
+  - Other → Snack  
+- Dynamic text update in `<p>`  
+
+### ✔️ `style.css`
+Provides styling for:
+- Centered layout  
+- Attractive color theme  
+- Styled dropdown & button  
+- Hover animations  
+- Output message formatting  
+
+---
+
+## 🖥️ Features Demonstrated
+
+- ✔ Multi-conditional logic using `else if`  
+- ✔ DOM interaction  
+- ✔ User input handling  
+- ✔ UI feedback  
+- ✔ Linking HTML, CSS, JS for a complete frontend app  
 
 ---
 
 ## 📌 Internship Tasks  
 
+## 📌 Internship Tasks  
+0. **Main Repo Overview**  
+   🔗 https://github.com/MukarramBambot/VCodez_Task_Internship.git  
 1. [Task 01: Basic HTML Structure](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
 2. [Task 02: Invoice Table Layout using HTML](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-1-&-2)  
 3. [Task 03: Table Styling with CSS](https://github.com/MukarramBambot/VCodez_Task_Internship/tree/Task-3)  
